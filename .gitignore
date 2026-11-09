@@ -1,0 +1,32 @@
+
+# Environnements Python
+.venv/
+.venv-win/
+venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets et clés API
+.env
+.env.*
+!.env.example
+*.key
+
+# Index vectoriel généré
+artifacts/index/
+
+# Modèles volumineux
+*.gguf
+*.safetensors
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+# Documents PDF bruts
+data/raw/
+
+# Configuration locale VS Code
+.vscode/settings.json

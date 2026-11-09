@@ -1,0 +1,26 @@
+
+streamlit>=1.50,<2.0
+
+# Lecture des documents PDF
+PyMuPDF>=1.25,<2.0
+
+# Embeddings et recherche vectorielle
+sentence-transformers>=5.0,<7.0
+chromadb>=1.0,<2.0
+
+# Communication avec Ollama
+ollama>=0.5,<1.0
+
+# Configuration et manipulation des donnees
+PyYAML>=6.0,<7.0
+pandas>=2.2,<3.0
+
+# Outils MLOps
+mlflow>=3.0,<4.0
+dvc>=3.0,<4.0
+
+# Tests automatises
+pytest>=8.0,<10.0
+
+# Monitoring
+psutil>=6.0,<8.0

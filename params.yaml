@@ -1,0 +1,27 @@
+
+# 1. Documents
+manifest: data/manifest.csv
+corpus_version: travail-v0-pending
+allow_synthetic: false
+
+# 2. Modele d'embeddings
+embedding: e5
+model: intfloat/multilingual-e5-small
+revision: 614241f622f53c4eeff9890bdc4f31cfecc418b3
+
+# 3. Decoupage des documents
+chunk_tokens: 400
+overlap: 40
+
+# 4. Base vectorielle
+collection: maroclex
+index_dir: artifacts/index
+
+# 5. Recherche documentaire
+k: 4
+max_distance: null
+
+# 6. LLM local - Ollama
+llm_model: mistral:7b
+ollama_url: http://localhost:11434
+temperature: 0.1
