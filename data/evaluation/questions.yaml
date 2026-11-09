@@ -1,20 +1,15 @@
 
-# MarocLex AI - Jeu d'evaluation RAG
-# Corpus : Code du travail et loi 19-12
+# MarocLex AI - Questions d'evaluation RAG
 
-version: "2.0"
+version: "2.1"
 
 description: >
-  Questions pour evaluer la pertinence de la recherche
-  documentaire selon les configurations de chunking.
+  Jeu de questions juridiques avec references
+  documentaires verifiees dans les PDF du corpus.
 
 corpus_version: "travail-v0-pending"
 
 questions:
-
-  # ==========================================
-  # Travail domestique
-  # ==========================================
 
   - id: Q001
     question: >
@@ -34,10 +29,6 @@ questions:
         page: 6
     topic: contrat_travail
 
-  # ==========================================
-  # Remuneration
-  # ==========================================
-
   - id: Q003
     question: >
       Quelles sont les règles concernant
@@ -46,10 +37,6 @@ questions:
       - document_id: code_travail
         page: 126
     topic: remuneration
-
-  # ==========================================
-  # Questions a annoter
-  # ==========================================
 
   - id: Q004
     question: >
@@ -63,70 +50,79 @@ questions:
     question: >
       Quelles sont les conditions de signature
       du contrat de travail domestique ?
-    relevant_passages: []
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 4
     topic: contrat_travail
-    status: pending
 
   - id: Q006
     question: >
       Quelle est la durée de la période d'essai
-      pour un travailleur domestique ?
-    relevant_passages: []
+      pour un travailleur domestique sous CDI ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
     topic: periode_essai
-    status: pending
 
   - id: Q007
     question: >
-      Quelles sont les règles de paiement
+      Quelle est la fréquence de paiement
       des salaires pour les ouvriers et employés ?
-    relevant_passages: []
+    relevant_passages:
+      - document_id: code_travail
+        page: 126
     topic: remuneration
-    status: pending
 
   - id: Q008
     question: >
-      Quelles sont les conditions d'emploi
-      des travailleurs mineurs au Maroc ?
-    relevant_passages: []
+      Quel est l'âge minimum d'admission
+      au travail prévu par le Code du travail ?
+    relevant_passages:
+      - document_id: code_travail
+        page: 62
     topic: travail_mineurs
-    status: pending
 
   - id: Q009
     question: >
       Comment les travailleurs domestiques
       peuvent-ils déposer une plainte
       contre leur employeur ?
-    relevant_passages: []
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 11
     topic: conflits_travail
-    status: pending
 
   - id: Q010
     question: >
       Quelles sont les sanctions prévues
       en cas de non-respect des règles
       relatives au paiement des salaires ?
-    relevant_passages: []
+    relevant_passages:
+      - document_id: code_travail
+        page: 129
     topic: sanctions
-    status: pending
-
-  # ==========================================
-  # Questions nécessitant plusieurs informations
-  # ==========================================
 
   - id: Q011
     question: >
       Quelles différences existe-t-il entre
-      l'emploi des travailleurs domestiques
-      et celui des autres salariés mineurs ?
-    relevant_passages: []
+      l'âge minimum d'emploi des travailleurs
+      domestiques et celui prévu par le Code
+      du travail pour les autres salariés ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
+      - document_id: code_travail
+        page: 62
     topic: comparaison_juridique
-    status: pending
 
   - id: Q012
     question: >
       Quelles obligations concernent le contrat
       de travail domestique et les procédures
       en cas de conflit avec l'employeur ?
-    relevant_passages: []
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 4
+      - document_id: loi_19_12
+        page: 11
     topic: question_multi_passages
-    status: pending
