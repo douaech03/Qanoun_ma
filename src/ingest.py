@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 import chromadb
-import fitz
+import pymupdf as fitz
 import yaml
 from sentence_transformers import SentenceTransformer
 
@@ -125,7 +125,12 @@ def split_text(text, tokenizer, chunk_tokens, overlap):
     if chunk_tokens <= 0 or not 0 <= overlap < chunk_tokens:
         raise ValueError("Paramètres de découpage invalides.")
 
-    tokens = tokenizer.encode(text, add_special_tokens=False)
+    tokens = tokenizer.encode(
+    text,
+    add_special_tokens=False,
+    truncation=False,
+    verbose=False
+    )
     step = chunk_tokens - overlap
     chunks = []
 
