@@ -333,3 +333,130 @@ def test_invalid_access(fake_environment):
             "Contrat de travail",
             allowed_access={"admin"},
         )
+
+# ==================================================
+# 13. Test d'intégration avec une vraie ChromaDB
+# ==================================================
+
+def test_real_chromadb_access_filter(tmp_path, monkeypatch):
+    """
+    Vérifier les droits d'accès avec une vraie ChromaDB,
+    sans modifier l'index principal de MarocLex AI.
+    """
+    import chromadb
+
+    # 1. Créer un index temporaire
+    index_path = tmp_path / "index"
+
+    client = chromadb.PersistentClient(
+        path=str(index_path)
+    )
+
+    collection = client.create_collection(
+        name="maroclex",
+        metadata={"hnsw:space": "cosine"},
+    )
+
+    # 2. Ajouter deux passages fictifs
+    collection.add(
+        ids=["public_1", "restricted_1"],
+
+        documents=[
+            "Texte juridique public fictif.",
+            "Note interne réservée fictive.",
+        ],
+
+        embeddings=[
+            [0.8, 0.6, 0.0],
+            [1.0, 0.0, 0.0],
+        ],
+
+        metadatas=[
+            {
+                "document_id": "doc_public",
+                "source": "Document public fictif",
+                "page": 1,
+                "access": "public",
+                "file": "public.pdf",
+                "corpus_version": "test-v1",
+            },
+            {
+                "document_id": "doc_restricted",
+                "source": "Document réservé fictif",
+                "page": 2,
+                "access": "restricted",
+                "file": "restricted.pdf",
+                "corpus_version": "test-v1",
+            },
+        ],
+    )
+
+    # 3. Configuration temporaire
+    config = {
+        "model": "fake-e5",
+        "revision": "test",
+        "collection": "maroclex",
+        "index_dir": "index",
+        "k": 2,
+        "max_distance": None,
+    }
+
+    # 4. Simuler uniquement le modèle d'embeddings
+    class TestModel:
+        def encode(self, texts, normalize_embeddings=True):
+            return [FakeVector([1.0, 0.0, 0.0])]
+
+    monkeypatch.setattr(
+        retriever, "ROOT", tmp_path
+    )
+
+    monkeypatch.setattr(
+        retriever, "load_config", lambda: config
+    )
+
+    monkeypatch.setattr(
+        retriever,
+        "load_model",
+        lambda model_name, revision: TestModel(),
+    )
+
+    # IMPORTANT :
+    # Nous ne remplaçons PAS get_collection().
+    # retrieve() utilise donc la vraie ChromaDB.
+
+    # 5. Recherche publique
+    public_results = retriever.retrieve(
+        "Question juridique de test",
+        k=2,
+    )
+
+    assert len(public_results) == 1
+    assert public_results[0]["id"] == "public_1"
+    assert public_results[0]["access"] == "public"
+
+    # Le passage réservé ne doit jamais apparaître
+    assert all(
+        result["access"] == "public"
+        for result in public_results
+    )
+
+    # 6. Recherche avec les deux accès autorisés
+    authorized_results = retriever.retrieve(
+        "Question juridique de test",
+        k=2,
+        allowed_access={"public", "restricted"},
+    )
+
+    assert len(authorized_results) == 2
+
+    returned_ids = {
+        result["id"] for result in authorized_results
+    }
+
+    assert returned_ids == {
+        "public_1",
+        "restricted_1",
+    }
+
+    # Le passage réservé est vectoriellement plus proche
+    assert authorized_results[0]["id"] == "restricted_1"
