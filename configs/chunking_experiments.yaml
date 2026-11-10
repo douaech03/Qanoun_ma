@@ -1,0 +1,40 @@
+
+# MarocLex AI - Experiments de chunking
+# Module MLOps - ENSA Fes
+
+description: >
+  Comparaison de plusieurs configurations
+  de chunk size et overlap pour le RAG juridique.
+
+# Meme valeur de k pour toutes les experiences
+k: 4
+
+experiments:
+
+  # Configuration de reference
+  - id: E1
+    name: baseline
+    chunk_tokens: 400
+    overlap: 40
+
+  # Effet de la taille des chunks
+  - id: E2
+    name: small_chunks
+    chunk_tokens: 200
+    overlap: 40
+
+  - id: E3
+    name: medium_chunks
+    chunk_tokens: 300
+    overlap: 40
+
+  # Effet du chevauchement
+  - id: E4
+    name: low_overlap
+    chunk_tokens: 400
+    overlap: 20
+
+  - id: E5
+    name: high_overlap
+    chunk_tokens: 400
+    overlap: 80

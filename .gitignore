@@ -30,3 +30,7 @@ data/raw/
 
 # Configuration locale VS Code
 .vscode/settings.json
+
+# Artefacts des expériences MLOps
+artifacts/experiments/
+artifacts/evaluation/

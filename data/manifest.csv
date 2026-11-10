@@ -1,0 +1,3 @@
+document_id,path,source,access,index_rag
+code_travail,data/raw/code_travail.pdf,Code du travail marocain,public,true
+loi_19_12,data/raw/loi_19_12.pdf,Loi marocaine 19-12 relative au travail domestique,public,true

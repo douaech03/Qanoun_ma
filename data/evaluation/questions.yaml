@@ -1,0 +1,128 @@
+
+# MarocLex AI - Questions d'evaluation RAG
+
+version: "2.1"
+
+description: >
+  Jeu de questions juridiques avec references
+  documentaires verifiees dans les PDF du corpus.
+
+corpus_version: "travail-v0-pending"
+
+questions:
+
+  - id: Q001
+    question: >
+      Quel est l'âge minimum pour travailler
+      comme employé domestique au Maroc ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
+    topic: travail_domestique
+
+  - id: Q002
+    question: >
+      Comment peut-on prouver l'existence
+      d'un contrat de travail domestique ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
+    topic: contrat_travail
+
+  - id: Q003
+    question: >
+      Quelles sont les règles concernant
+      le paiement des salaires au Maroc ?
+    relevant_passages:
+      - document_id: code_travail
+        page: 126
+    topic: remuneration
+
+  - id: Q004
+    question: >
+      Quels sont les droits et obligations
+      des salariés et des employeurs ?
+    relevant_passages: []
+    topic: droits_travailleurs
+    status: pending
+
+  - id: Q005
+    question: >
+      Quelles sont les conditions de signature
+      du contrat de travail domestique ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 4
+    topic: contrat_travail
+
+  - id: Q006
+    question: >
+      Quelle est la durée de la période d'essai
+      pour un travailleur domestique sous CDI ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
+    topic: periode_essai
+
+  - id: Q007
+    question: >
+      Quelle est la fréquence de paiement
+      des salaires pour les ouvriers et employés ?
+    relevant_passages:
+      - document_id: code_travail
+        page: 126
+    topic: remuneration
+
+  - id: Q008
+    question: >
+      Quel est l'âge minimum d'admission
+      au travail prévu par le Code du travail ?
+    relevant_passages:
+      - document_id: code_travail
+        page: 62
+    topic: travail_mineurs
+
+  - id: Q009
+    question: >
+      Comment les travailleurs domestiques
+      peuvent-ils déposer une plainte
+      contre leur employeur ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 11
+    topic: conflits_travail
+
+  - id: Q010
+    question: >
+      Quelles sont les sanctions prévues
+      en cas de non-respect des règles
+      relatives au paiement des salaires ?
+    relevant_passages:
+      - document_id: code_travail
+        page: 129
+    topic: sanctions
+
+  - id: Q011
+    question: >
+      Quelles différences existe-t-il entre
+      l'âge minimum d'emploi des travailleurs
+      domestiques et celui prévu par le Code
+      du travail pour les autres salariés ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 6
+      - document_id: code_travail
+        page: 62
+    topic: comparaison_juridique
+
+  - id: Q012
+    question: >
+      Quelles obligations concernent le contrat
+      de travail domestique et les procédures
+      en cas de conflit avec l'employeur ?
+    relevant_passages:
+      - document_id: loi_19_12
+        page: 4
+      - document_id: loi_19_12
+        page: 11
+    topic: question_multi_passages
