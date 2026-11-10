@@ -3,8 +3,8 @@
 Exécution depuis la racine du projet :
     python -m streamlit run app.py
 
-Cette interface utilise actuellement un document 100 % fictif.
-La récupération de vrais passages sera branchée après intégration du retriever.
+Cette interface utilise les passages juridiques indexés dans ChromaDB
+et enregistre les métriques de génération des réponses.
 
 Le logo et l'emblème sont intégrés dans ce fichier (base64) : aucun dossier
 d'images n'est nécessaire.
@@ -14,7 +14,6 @@ import base64
 import logging
 import math
 import tempfile
-import unicodedata
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote
@@ -23,7 +22,8 @@ from uuid import uuid4
 import streamlit as st
 from PIL import Image
 
-from src.rag import generate_answer
+from src.retriever import retrieve
+from src.monitoring import generate_with_monitoring
 
 
 # --------- Identité visuelle intégrée (logo complet + emblème) ---------
@@ -331,39 +331,6 @@ STYLES = """
 st.markdown(STYLES, unsafe_allow_html=True)
 
 
-# --------- Données fictives : aucune valeur juridique ---------
-DEMO_PASSAGE = {
-    "text": (
-        "DOCUMENT ENTIÈREMENT FICTIF — uniquement pour les tests. "
-        "Dans l'entreprise imaginaire Atlas-B, un règlement de démonstration "
-        "prévoit un délai de réponse de trois jours ouvrables pour les "
-        "demandes internes. Ce texte ne décrit aucune règle du droit marocain."
-    ),
-    "source": "DOCUMENT_FICTIF_TEST",
-    "page": 1,
-    "distance": None,
-    "access": "public",
-}
-
-
-def get_passages(question: str, demo_mode: bool) -> list[dict]:
-    """Point de branchement du futur retriever de Douae.
-
-    Dans ce prototype, aucun document juridique réel n'est interrogé.
-    Une question hors sujet du document fictif reçoit une liste vide.
-    """
-    if not demo_mode:
-        # À remplacer après vérification de l'interface réelle de Douae :
-        # return retrieve(question, k=4)
-        return []
-
-    normalized = unicodedata.normalize("NFKD", question)
-    normalized = "".join(c for c in normalized if not unicodedata.combining(c)).lower()
-    about_demo = any(word in normalized for word in ("fictif", "atlas", "interne"))
-    about_delay = any(word in normalized for word in ("delai", "reponse", "demande"))
-    return [DEMO_PASSAGE.copy()] if about_demo and about_delay else []
-
-
 def create_conversation() -> None:
     """Créer une conversation vide dans la session Streamlit."""
     identifier = uuid4().hex
@@ -379,9 +346,6 @@ def initialize_state() -> None:
         st.session_state["conversations"] = {}
     if "active_conversation" not in st.session_state:
         create_conversation()
-    # Données fictives actives tant que le retriever n'est pas branché
-    # (l'interrupteur a été retiré de l'interface).
-    st.session_state.setdefault("demo_mode", True)
 
 
 def active_conversation() -> dict:
@@ -405,7 +369,7 @@ def delete_conversation(identifier: str) -> None:
 
 
 def ask_qanoun(question: str) -> None:
-    """Ajouter les messages et appeler le module LLM existant."""
+    """Rechercher les passages et générer une réponse avec monitoring."""
     thread = active_conversation()
     thread["messages"].append({"role": "user", "content": question})
 
@@ -413,16 +377,15 @@ def ask_qanoun(question: str) -> None:
         short_title = " ".join(question.strip().split())
         thread["title"] = short_title[:43] + ("…" if len(short_title) > 43 else "")
 
-    is_demo = st.session_state["demo_mode"]
     try:
         with st.spinner("Mistral 7B prépare la réponse…"):
-            passages = get_passages(question, is_demo)
-            result = generate_answer(question, passages)
+            passages = retrieve(question, allowed_access={"public"})
+            result = generate_with_monitoring(question, passages)
     except Exception:
-        LOGGER.exception("Échec de la génération de réponse")
+        LOGGER.exception("Échec du pipeline RAG")
         result = {
             "status": "error",
-            "answer": "Une erreur technique est survenue. Vérifie qu'Ollama fonctionne.",
+            "answer": "Une erreur technique est survenue. Vérifie l'index ChromaDB et Ollama.",
             "sources": [],
         }
 
@@ -431,7 +394,6 @@ def ask_qanoun(question: str) -> None:
         "content": result["answer"],
         "status": result["status"],
         "sources": result.get("sources", []),
-        "demo": is_demo,
     })
 
 
@@ -444,8 +406,6 @@ def display_message(message: dict) -> None:
 
         status = message.get("status", "ok")
         if status == "ok":
-            if message.get("demo"):
-                st.caption("🧪 Réponse fondée sur un document de test fictif")
             st.markdown(message["content"])
         elif status == "insufficient_context":
             st.warning(message["content"])
@@ -510,7 +470,7 @@ with st.sidebar:
     st.caption("Chaibi Douae & Amiri Abdelhadi")
 
 # --------- Zone principale ---------
-mode_tag = "DÉMONSTRATION" if st.session_state["demo_mode"] else "RECHERCHE NON CONNECTÉE"
+mode_tag = "RECHERCHE DOCUMENTAIRE"
 brand_col, tag_col = st.columns([3, 2], gap="small")
 with brand_col:
     if st.button("Qanoun.ma", key="home_brand", help="Retour à l'accueil"):
@@ -525,8 +485,8 @@ st.markdown('<div class="ml-rule"></div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="ml-note">'
     'Assistant pédagogique, pas un conseil juridique. '
-    'Les réponses de démonstration proviennent uniquement de textes fictifs. '
-    'La recherche dans les lois réelles sera activée après intégration du retriever.'
+    'Les réponses reposent sur les passages du corpus juridique indexé. '
+    'Vérifiez les sources fournies sous chaque réponse.'
     '</div>',
     unsafe_allow_html=True,
 )
@@ -541,22 +501,22 @@ if not thread["messages"]:
         '<h1>Comment puis-je vous aider ?</h1>'
         '<div class="ml-ar">كيف يمكنني مساعدتك؟</div>'
         '<p>Explorez les documents du droit marocain avec une réponse sourcée.<br>'
-        'Pour le moment, testez le dialogue sur un exemple entièrement fictif.</p>'
+        'Posez une question sur le droit du travail marocain.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
     st.markdown("**Essayer une question**")
     col1, col2, col3 = st.columns(3, gap="small")
     with col1:
-        if st.button("⏱️  Quel est le délai dans le document fictif ?", use_container_width=True):
-            example_question = "Quel est le délai de réponse dans le document fictif Atlas-B ?"
+        if st.button("👤  Âge minimum du travail domestique ?", use_container_width=True):
+            example_question = "Quel est l’âge minimum pour travailler comme employé domestique au Maroc ?"
     with col2:
-        if st.button("📄  Que dit le corpus sur le licenciement ?", use_container_width=True):
-            example_question = "Que dit le corpus sur le licenciement au Maroc ?"
+        if st.button("📄  Âge minimum selon le Code du travail ?", use_container_width=True):
+            example_question = "Quel est l’âge minimum d’admission au travail prévu par le Code du travail ?"
     with col3:
-        if st.button("🔎  Quelles sont les règles des congés ?", use_container_width=True):
-            example_question = "Quelles sont les règles des congés annuels au Maroc ?"
-    st.caption("Les deux dernières questions illustrent le refus lorsqu'aucune source n'est disponible.")
+        if st.button("🔎  Période d’essai du travail domestique ?", use_container_width=True):
+            example_question = "Quelle est la durée de la période d’essai pour un travailleur domestique sous CDI ?"
+    st.caption("Les réponses doivent être vérifiées à partir des sources affichées.")
 else:
     for item in thread["messages"]:
         display_message(item)
