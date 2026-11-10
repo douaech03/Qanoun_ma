@@ -1,7 +1,7 @@
 
 # 1. Documents
 manifest: data/manifest.csv
-corpus_version: travail-v0-pending
+corpus_version: qanoun-v1
 allow_synthetic: false
 
 # 2. Modele d'embeddings

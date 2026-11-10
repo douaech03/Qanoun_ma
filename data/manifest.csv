@@ -1,3 +1,7 @@
 document_id,path,source,access,index_rag
 code_travail,data/raw/code_travail.pdf,Code du travail marocain,public,true
 loi_19_12,data/raw/loi_19_12.pdf,Loi marocaine 19-12 relative au travail domestique,public,true
+decret_smig_2026,data/raw/decret_smig_2026.pdf,Décret n° 2.25.983 - SMIG/SMAG 2026,public,true
+constitution_2011,data/raw/constitution_2011.pdf,Constitution du Royaume du Maroc 2011,public,true
+code_famille,data/raw/mudawwana-usra.pdf,Code de la famille marocain,public,true
+code_penal,data/raw/code_penal.pdf,Code penal marocain,public,true

@@ -7,7 +7,7 @@ description: >
   Jeu de questions juridiques avec references
   documentaires verifiees dans les PDF du corpus.
 
-corpus_version: "travail-v0-pending"
+corpus_version: "qanoun-v1"
 
 questions:
 
