@@ -25,8 +25,7 @@ artifacts/index/
 # Fichiers système
 .DS_Store
 Thumbs.db
-# Documents PDF bruts
-data/raw/
+
 
 # Configuration locale VS Code
 .vscode/settings.json
