@@ -1,0 +1,1104 @@
+{
+    "metrics": {
+        "questions_evaluees": 20,
+        "k": 4,
+        "precision_at_k": 0.1625,
+        "recall_at_k": 0.575,
+        "mrr": 0.5166666666666666
+    },
+    "details": [
+        {
+            "id": "Q001",
+            "question": "Quel est l'âge minimum pour travailler comme employé domestique au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12416934967041016,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "61a0a9c556f04830fffaad3721af2919e5967b0489103a489fae439bc5ad6142",
+                    "text": "- 5 - Article 4 Les travailleuses ou les travailleurs domestiques marocains ou étrangers, peuvent être recrutés par l'intermédiaire des agences de recrutement privées, créées conformément aux dispositions du livre IV de la loi n° 65-99 relative au Code du travail relatives à l'intermédiation en matière de recrutement et d'embauchage, autorisées à cet effet. Il est interdit aux personnes physiques d'exercer, moyennant rémunération, l'activité d'intermédiation en matière de recrutement des travailleuses ou travailleurs domestiques. Article 5 La travailleuse ou le travailleur domestique est tenu de fournir à l'employeur une copie légalisée de sa carte nationale d'identité ou de toute pièce d'identité en tenant lieu, ainsi que toutes les informations et documents demandés par l'employeur, notamment ceux relatifs à son nom, son adresse, sa date et lieu de naissance, sa situation familiale et, le cas échéant, copies des certificats scolaires et professionnels dont il dispose. La travailleuse ou le travailleur domestique doit informer l'employeur de tout changement survenu concernant son adresse ou sa situation familiale. L'employeur peut, à ses frais, demander à la travailleuse ou au travailleur domestique, avant son emploi, de présenter un certificat médical attestant de son aptitude physique. La travailleuse ou le travailleur domestique est tenu de déclarer à son employeur toute maladie dont il est atteint notamment s'il s'agit d'une maladie chronique. L'employeur est tenu aussi de porter à la connaissance de la travailleuse ou du travailleur domestique toute maladie contagieuse dont il souffre ou dont souffre un membre de sa famille. Lors de l'examen médical, le principe de la confidentialité des informations personnelles et de la",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.137320876121521,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "6ca1ba1bc05ed5629e41755f8487d633beecff671e670446f5a905d302ea53e0",
+                    "text": ", les électeurs de nationalité marocaine, âgés de vingt ans révolus et ayant travaillé dans l'établissement sans interruption, depuis un an au moins. Pour l'application de l'alinéa précédent, dans les établissements dont l'activité est saisonnière, cent quatre jours de travail discontinu accompli au cours de la précédente campagne équivalent à un an de travail.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.14098358154296875,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "32bb2c46efa9eb0f58c9483bbac3059bf5048ceec5c1972b3ef6d0814bb50f2c",
+                    "text": "- 62 - Titre II : De la protection du mineur et de la femme Chapitre Premier : De l'âge d'admission au travail Article 143 Les mineurs ne peuvent être employés ni être admis dans les entreprises ou chez les employeurs avant l'âge de quinze ans révolus19. Article 144 L'agent chargé de l'inspection du travail a, à tout moment, le droit de requérir l'examen par un médecin dans un hôpital relevant du ministère chargé de la santé publique de tous les mineurs salariés âgés de moins de dix-huit ans et tous les salariés handicapés, à l'effet de vérifier si le travail dont ils sont chargés n'excède pas leurs capacités ou ne convient pas à leur handicap. L'agent chargé de l'inspection du travail a le droit d'ordonner le renvoi des mineurs et des salariés handicapés de leur travail, sans préavis, en cas d'avis conforme dudit médecin et après examen contradictoire à la demande de leurs parents. Article 145 Aucun mineur de moins de 18 ans ne peut, sans autorisation écrite préalablement remise par l'agent chargé de l'inspection du travail pour chaque mineur et après consultation de son tuteur, être employé à titre 19 - L’âge mentionné ci-dessus par l’article 145 a été fixé conformément à la convention de l’organisation internationale du travail n° 138 relative à l’âge minimum d’admission à l’emploi signé le 26 Juin 1973. (et ratifiée par le Maroc le 6 Juin 2000). Ainsi qu’à l’article premier du dahir n° 1-00-200 du 15 Safar 1421 (19 Mai 2000) portant promulgation de la loi n° 04-00 modifiant et complétant le dahir n° 1-63-071 du 25 Joumada",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.1422678828239441,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q002",
+            "question": "Comment peut-on prouver l'existence d'un contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "c7f9ebf7ea2b4afce44f45dee171d6a47ee1a7ef1e486d0c5476498187047b4b",
+                    "text": "re, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapportée par tous les moyens. Le contrat de travail établi par écrit est exonéré des droits d'enregistrement.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.10561919212341309,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "5a1501b679d9d5f5ae77ccad9d6ba7b8ac4fe51bfdb2034c393bf0757363caca",
+                    "text": "- 4 - Article 2 Les travaux liés à la maison ou à la famille comprennent notamment les travaux suivants :  effectuer les tâches ménagères;  prendre soin des enfants;  prendre soin d'un membre de la famille en raison de son âge, de son incapacité, de sa maladie ou de sa situation d'handicap;  la conduite;  les travaux de jardinage;  le gardiennage de la maison. Chapitre II : Conditions d'emploi des travailleuses et travailleurs domestiques Article 3 La travailleuse ou le travailleur domestique est employé en vertu d'un contrat de travail à durée déterminée ou indéterminée, établi par l'employeur selon le modèle fixé par voie réglementaire. Ce contrat est signé par l'employeur et la travailleuse ou le travailleur domestique, à condition d'observer, lors de la signature, les conditions relatives au consentement et à la capacité des parties à contracter, ainsi qu'a l'objet et à la cause du contrat, telles qu'elles sont fixées par le code des obligations et des contrats. Le contrat est établi en trois exemplaires dont les signatures sont légalisées par l'autorité compétente. L'employeur remet un exemplaire du contrat à la travailleuse ou au travailleur domestique, et en conserve un, et dépose le troisième exemplaire, contre un reçu, auprès de l'inspection du travail compétente. En cas de travailleuses ou travailleurs domestiques étrangers, sont appliquées les dispositions des chapitres V et VI du livre IV de la loi n° 65- 99 relative au Code du travail, concernant l'emploi des salariés étrangers. Si l'inspecteur du travail constate l'existence de clauses contraires aux dispositions de la",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13356685638427734,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.14069902896881104,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "be65f4b6122891bae919c6be6f860c6474af41110734d3725c22fcdb0db404e2",
+                    "text": "- 11 - Chapitre V : Contrôle et sanctions Article 22 Les agents chargés de l'inspection du travail reçoivent les plaintes déposées par la travailleuse ou le travailleur domestique à l'encontre de l'employeur, ou par l'employeur à l'encontre de la travailleuse ou le travailleur domestique en tout ce qui concerne l'exécution du contrat du travail conclu entre les deux parties. L'inspecteur du travail convoque les deux parties aux fins de s'assurer de l'application des dispositions de la présente loi. L'inspecteur du travail procède à des tentatives de conciliation entre les deux parties, consignées dans un procès-verbal signé par les deux parties. A défaut de conciliation, il dresse un procès-verbal remis à la travailleuse ou au travailleur domestique pour le produire en cas de recours à la juridiction compétente aux fins de statuer sur le conflit. L'inspecteur du travail peut demander aux parties de lui communiquer les documents lui permettant d'accomplir ladite mission. En cas de constatation d'infraction aux dispositions de la présente loi, il dresse un procès-verbal à cet effet et le transmet au ministère public compétent. Article 23 Est punie d'une amende de 25.000 à 30.000 dirhams :  toute personne qui emploie, durant la période transitoire prévue par l'alinéa deux de l'article 6 ci-dessus, une travailleuse ou un travailleur domestique âgé de moins de 16 ans ;  toute personne qui emploie une travailleuse ou un travailleur domestique âgé de moins de 18 ans après expiration de la période transitoire prévue par l'alinéa deux de l'article 6 ci- dessus;  toute personne qui emploie une travailleuse ou",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1409403681755066,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q003",
+            "question": "Quelles sont les règles concernant le paiement des salaires au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "415f93235e10d2a7249aa5ad7443f2645d276f4c58efc1f14d9d5b72590c139e",
+                    "text": "- 126 - représentatives du salaire minimum légal qui ont été, en tout ou partie, indûment retenues. Le non-respect des dispositions de l'article 346 est puni d'une amende de 25.000 à 30.000 dirhams. En cas de récidive, cette amende est portée au double. Chapitre II : Du paiement des salaires Article 362 Les salaires doivent être payés en monnaie marocaine nonobstant toute clause contraire. Des avantages en nature peuvent être attribués aux salariés dans les professions ou dans les entreprises où il est d'usage d'en accorder. Article 363 Le salaire doit être payé au moins deux fois par mois, à seize jours au plus d'intervalle, aux ouvriers et au moins une fois par mois aux employés. Les commissions dues aux voyageurs, représentants et placiers de commerce et d'industrie doivent être réglées au moins une fois tous les trois mois. Article 364 Pour tout travail à la pièce, à la tâche ou au rendement dont l'exécution doit durer plus d'une quinzaine de jours, les dates de paiement peuvent être fixées de gré à gré ; mais le salarié doit recevoir des acomptes chaque quinzaine de manière qu'il soit intégralement payé dans la quinzaine qui suit la livraison de l'ouvrage. Article 365 Le salaire rémunéré à l'heure ou à la journée doit être payé au salarié dans les vingt-quatre heures lorsque celui-ci est licencié, et dans les soixante-douze heures suivantes lorsqu'il quitte l'employeur de son plein gré. Article 366 Le paiement du salaire est interdit le jour où le salarié a droit au repos.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.10677361488342285,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "6dea2846b31bd9d7651112905a8b2dbc3b57f3809e8c420d36260e2a94acac2a",
+                    "text": "- 198 - Le décret royal n° 314-66 du 8 joumada I 1387 (14 août 1967) portant loi relatif au maintien de l'activité des entreprises industrielles et commerciales et au licenciement de leur personnel ; Conventions collectives de travail : Le dahir n° 1-57-067 du 16 ramadan 1376 (17 avril 1957) relatif à la convention collective de travail. Le dahir n° 1-58-145 du 10 joumada II 1380 (29 novembre 1960) portant institution d'un conseil supérieur des conventions collectives ; Immigration : Le dahir du 7 chaabane 1353 (15 novembre 1934) réglementant l'immigration ; Les dispositions dudit dahir subsistent en ce qui concerne les personnes autres que les salariés tels que définis à l'article 3 de la présente loi100; Emigration : Dahir du 16 moharrem 1369 (8 novembre 1949) portant réglementation de l'émigration des travailleurs marocains ; Réglementation du travail, durée du travail, repos : Le dahir du 13 chaabane 1366 (2 juillet 1947) portant réglementation du travail ; Le dahir portant loi n° 1-72-219 du 20 rabii I 1393 (24 avril 1973) déterminant les conditions d'emploi et de rémunération des salariés agricoles ; Le dahir du 28 rabii I 1355 (18 juin 1936) portant réglementation de la durée du travail ; Le dahir du 2 ramadan 1366 (21 juillet 1947) relatif au repos hebdomadaire et au repos des jours fériés ; 100 - Comparer avec l’article 58 du Dahir n° 1-03-196 du 16 Ramadan 1424 (11Novembre 2003) portant promulgation de la loi n° 02-03 relative à l'entrée et au séjour des étrangers au Royaume du Maroc, à l'émigration et l'immigration irrégulières",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.139054536819458,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "e31d8a47edd277c5ce98923319300b568ae222465f600c9ba868d86ee25e6079",
+                    "text": "- 174 - à sa charge les frais du retour du salarié étranger à son pays ou au pays où il résidait. Article 519 Le cautionnement déposé par les adjudicataires de travaux exécutés pour le compte de l'Etat, des collectivités locales, des entreprises et des établissements publics, ne peut leur être remboursé et la caution personnelle qu'ils ont présentée ne peut être déchargée de son obligation que sur production d'une attestation administrative délivrée par le délégué préfectoral ou provincial chargé du travail certifiant le paiement des frais de retour des salariés étrangers recrutés hors du Maroc ainsi que des sommes dues à ses salariés. Chapitre VI : Dispositions générales Article 520 Sont prises en considération, le cas échéant, les dispositions des conventions internationales multilatérales ou bilatérales publiées conformément à la loi, relatives à l'emploi des salariés marocains à l'étranger ou des salariés étrangers au Maroc. Article 521 Est puni d'une amende de 2.000 à 5.000 dirhams tout employeur : 1. qui n'a pas obtenu l'autorisation prévue par l'article 516 ou qui a employé un salarié étranger dépourvu de ladite autorisation ; 2. qui emploie un salarié étranger dont le contrat n'est pas conforme au modèle prévu par l'article 517 ; 3. qui enfreint les dispositions des articles 518 et 519. Chapitre VII : Le Conseil supérieur de la promotion de l'emploi et les conseils régionaux et provinciaux de la promotion de l'emploi. Article 522 Est institué auprès de l'autorité gouvernementale chargée du travail un conseil dénommé \" le Conseil supérieur de la promotion de l'emploi \".",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.14716076850891113,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "b9e2ee003ddbe829604443ce61812ad1b4ea54d78fe0047110ab51932afda454",
+                    "text": "- 129 - Article 374 Le livre de paye ou les documents mécanographiques et informatiques ou les autres moyens de contrôle qui remplacent ce livre doivent être tenus à la disposition des agents chargés de l'inspection du travail et des inspecteurs de la Caisse Nationale de Sécurité Sociale qui peuvent à tout moment en exiger la communication. Article 375 Sont punis d'une amende de 300 à 500 dirhams : 1. le paiement des salaires en monnaie non marocaine en violation des dispositions du premier alinéa de l'article 362 ; 2. le paiement des salaires effectué contrairement aux conditions fixées par les articles 363, 364, 365, 366, 367 et 369 relatives, notamment, à la périodicité, au lieu, aux jours et horaires du paiement ; 3. le défaut de l'affichage prévu par l'article 368 ou l'affichage ne répondant pas aux prescriptions dudit article ; 4. le défaut de délivrance du bulletin de paye aux salariés ou le bulletin ne contenant pas les indications fixées par l'autorité gouvernementale chargée du travail prévues par l'article 370 ; 5. le défaut de tenue du livre de paye ou du moyen de contrôle équivalent admis par l'agent chargé de l'inspection du travail, ou le livre de paye ou le moyen de contrôle équivalent non tenus conformément aux dispositions fixées par l'autorité gouvernementale chargée du travail, ou le défaut de conservation du livre de paye ou des documents en tenant lieu pendant le délai fixé, ou le défaut de mise à la disposition des agents chargés de l'inspection du travail et des inspecteurs de la Caisse Nationale de sécurité sociale du livre de paye ou du moyen en tenant lieu, conformément aux",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 129,
+                    "distance": 0.15166831016540527,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q005",
+            "question": "Quelles sont les conditions de signature du contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "5a1501b679d9d5f5ae77ccad9d6ba7b8ac4fe51bfdb2034c393bf0757363caca",
+                    "text": "- 4 - Article 2 Les travaux liés à la maison ou à la famille comprennent notamment les travaux suivants :  effectuer les tâches ménagères;  prendre soin des enfants;  prendre soin d'un membre de la famille en raison de son âge, de son incapacité, de sa maladie ou de sa situation d'handicap;  la conduite;  les travaux de jardinage;  le gardiennage de la maison. Chapitre II : Conditions d'emploi des travailleuses et travailleurs domestiques Article 3 La travailleuse ou le travailleur domestique est employé en vertu d'un contrat de travail à durée déterminée ou indéterminée, établi par l'employeur selon le modèle fixé par voie réglementaire. Ce contrat est signé par l'employeur et la travailleuse ou le travailleur domestique, à condition d'observer, lors de la signature, les conditions relatives au consentement et à la capacité des parties à contracter, ainsi qu'a l'objet et à la cause du contrat, telles qu'elles sont fixées par le code des obligations et des contrats. Le contrat est établi en trois exemplaires dont les signatures sont légalisées par l'autorité compétente. L'employeur remet un exemplaire du contrat à la travailleuse ou au travailleur domestique, et en conserve un, et dépose le troisième exemplaire, contre un reçu, auprès de l'inspection du travail compétente. En cas de travailleuses ou travailleurs domestiques étrangers, sont appliquées les dispositions des chapitres V et VI du livre IV de la loi n° 65- 99 relative au Code du travail, concernant l'emploi des salariés étrangers. Si l'inspecteur du travail constate l'existence de clauses contraires aux dispositions de la",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.12465149164199829,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12922990322113037,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "c7f9ebf7ea2b4afce44f45dee171d6a47ee1a7ef1e486d0c5476498187047b4b",
+                    "text": "re, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapportée par tous les moyens. Le contrat de travail établi par écrit est exonéré des droits d'enregistrement.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13623195886611938,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "d560372098cc31e05ec51e77697de4ac478ad5e957f816a890fb966b61367b8f",
+                    "text": "Les conditions de travail et d'emploi des travailleuses et travailleurs domestiques",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 1,
+                    "distance": 0.1375228762626648,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q006",
+            "question": "Quelle est la durée de la période d'essai pour un travailleur domestique sous CDI ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13181936740875244,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "fcad2b6adb4d2c5c0f42ffe5817c7b2981a3a7e3e4dc95f34487e11ba3395ab6",
+                    "text": "- 17 - Livre premier : Des conventions relatives au travail Titre premier : Du contrat de travail Chapitre premier : De la période d'essai Article 13 La période d'essai est la période pendant laquelle chacune des parties peut rompre volontairement le contrat de travail, sans préavis ni indemnité. Toutefois, après au moins une semaine de travail, la rupture de la période d'essai non motivée par la faute grave du salarié, ne peut avoir lieu qu'en donnant l'un des délais de préavis suivants : - deux jours avant la rupture s'il est payé à la journée, à la semaine ou à la quinzaine ; - huit jours avant la rupture s'il est payé au mois. Si, après l'expiration de la période d'essai, le salarié vient à être licencié sans qu'il ait commis de faute grave, celui-ci doit bénéficier d'un délai de préavis qui ne peut être inférieur à huit jours. Article 14 1. La période d'essai en ce qui concerne les contrats à durée indéterminée est fixée à : - trois mois pour les cadres et assimilés ; - un mois et demi pour les employés ; - quinze jours pour les ouvriers. La période d'essai peut être renouvelée une seule fois. 2. La période d'essai en ce qui concerne les contrats à durée déterminée ne peut dépasser : - une journée au titre de chaque semaine de travail dans la limite de deux semaines lorsqu'il s'agit de contrats d'une durée inférieure à six mois ; - un mois lorsqu'il s'agit de contrats d'une durée supérieure à six mois.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 17,
+                    "distance": 0.13548684120178223,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "d587b133bfd96d8bc7d1f5a4f953f56894bcb6dcfb2e44ffef076f8ed8366442",
+                    "text": "- 170 - Article 502 La période d'essai ne peut dépasser : 1. deux jours si le contrat est conclu pour une durée de moins d'un mois ; 2. trois jours si le contrat est conclu pour une durée variant entre un et deux mois ; 3. cinq jours si la durée du contrat dépasse deux mois. Article 503 Le retrait de l'autorisation prévu à l'article 487 ne dispense pas les responsables des entreprises d'emploi temporaire de leurs engagements vis-à-vis de leurs salariés et de la Caisse nationale de sécurité sociale. Article 504 L'entreprise utilisatrice doit prendre toutes les mesures de prévention et de protection à même d'assurer la santé et la sécurité des salariés temporaires qu'elle emploie. L'entreprise utilisatrice est responsable de l'assurance de ses salariés contre les accidents du travail et les maladies professionnelles. Article 505 L'infraction aux dispositions du présent chapitre est punie d'une amende de 2.000 à 5.000 dirhams. Article 506 Les agences de recrutement privées en activité avant la date de publication de la présente loi doivent, dans un délai ne dépassant pas six mois à compter de la date de sa publication au \" Bulletin officiel \" prendre toutes les mesures nécessaires pour se conformer à ses dispositions. En cas de non-respect des dispositions de l'alinéa précédent, la juridiction compétente peut ordonner, sur la base du procès-verbal de l'inspecteur du travail, la fermeture de l'agence de recrutement privée.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 170,
+                    "distance": 0.13913887739181519,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "007f7eebbc1d257c8ac10843facb8fb12698e341e133150c6d24e4a6d4777ce1",
+                    "text": "- 8 - Chapitre III : Durée de travail, repos hebdomadaire, congé annuel et jours fériés Article 13 La durée de travail pour les travaux domestiques est fixée à 48 heures par semaine, répartie sur les jours de la semaine d'un commun accord entre les deux parties. Toutefois, la durée hebdomadaire de travail des travailleuses et travailleurs domestiques, âgés entre 16 et 18 ans, est fixée à 40 heures. Article 14 La travailleuse ou le travailleur domestique bénéficie d'un repos hebdomadaire d'au moins de 24 heures continues. Les parties peuvent, d'un commun accord, reporter le repos hebdomadaire et d'en bénéficier dans un délai n'excédant pas trois mois. Article 15 Pendant une période de douze mois consécutifs courant, à compter de la date de la reprise du travail après l'accouchement, la mère, travailleuse domestique, bénéficie quotidiennement d'un repos spécial pour allaitement d'une durée d'une heure par jour. La durée du repos pour allaitement est indépendante des périodes de repos dont jouit la travailleuse domestique. L'employeur et la travailleuse domestique qui allaite peuvent convenir de la manière appropriée pour bénéficier de cette période de repos en fonction des conditions de travail. Article 16 La travailleuse ou le travailleur domestique bénéficie, après six mois de service continu chez l'employeur, d'un congé annuel payé dont la durée minimale est d'un jour et demi de travail par mois. Le congé annuel peut être fractionné ou cumulé sur deux années consécutives si les deux parties parviennent à un accord.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 8,
+                    "distance": 0.14286261796951294,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q007",
+            "question": "Quelle est la fréquence de paiement des salaires pour les ouvriers et employés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.3333333333333333,
+            "results": [
+                {
+                    "id": "2de90a8a90f5f333d0c17cba62007d2bc19e2f9de8c234f3b7bbbd975827e25e",
+                    "text": "la liste des jours de fêtes payés dans les entreprises industrielles et commerciales, les professions libérales et les exploitations agricoles et forestières; Bulletin Officiel n° 5280 du 24 kaada 1425 (6Janvier 2005), p.18.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 85,
+                    "distance": 0.13981622457504272,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "2a9f1576c5c9ca3f13bdc3b148ea2db95dfd87bc17efefc3988c0e598dba6801",
+                    "text": "ines à service continu et dans les entreprises occupant plus de cent salariés, des dérogations aux dispositions du présent article peuvent être accordées par les agents chargés de l'inspection du travail. Le paiement doit être effectué sans interruption pour les salariés d'un même établissement ou d'un même atelier. Les dispositions du présent article s'appliquent tant au paiement des salaires qu'au versement d'acomptes effectués entre deux payes successives.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 127,
+                    "distance": 0.14873164892196655,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "415f93235e10d2a7249aa5ad7443f2645d276f4c58efc1f14d9d5b72590c139e",
+                    "text": "- 126 - représentatives du salaire minimum légal qui ont été, en tout ou partie, indûment retenues. Le non-respect des dispositions de l'article 346 est puni d'une amende de 25.000 à 30.000 dirhams. En cas de récidive, cette amende est portée au double. Chapitre II : Du paiement des salaires Article 362 Les salaires doivent être payés en monnaie marocaine nonobstant toute clause contraire. Des avantages en nature peuvent être attribués aux salariés dans les professions ou dans les entreprises où il est d'usage d'en accorder. Article 363 Le salaire doit être payé au moins deux fois par mois, à seize jours au plus d'intervalle, aux ouvriers et au moins une fois par mois aux employés. Les commissions dues aux voyageurs, représentants et placiers de commerce et d'industrie doivent être réglées au moins une fois tous les trois mois. Article 364 Pour tout travail à la pièce, à la tâche ou au rendement dont l'exécution doit durer plus d'une quinzaine de jours, les dates de paiement peuvent être fixées de gré à gré ; mais le salarié doit recevoir des acomptes chaque quinzaine de manière qu'il soit intégralement payé dans la quinzaine qui suit la livraison de l'ouvrage. Article 365 Le salaire rémunéré à l'heure ou à la journée doit être payé au salarié dans les vingt-quatre heures lorsque celui-ci est licencié, et dans les soixante-douze heures suivantes lorsqu'il quitte l'employeur de son plein gré. Article 366 Le paiement du salaire est interdit le jour où le salarié a droit au repos.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.15113240480422974,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "0e1c8f461c7db18b89f4e21e8c3d73d737867e4e336421931fff837fefc8f400",
+                    "text": "- 10 - Chapitre IV : Le salaire Article 19 Le salaire en espèces de la travailleuse ou du travailleur domestique ne peut être inférieur à 60 pour cent du salaire minimum légal, applicable dans les secteurs d'industrie, de commerce et de professions libérales. Les avantages de nourriture et de logement ne peuvent, en aucun cas, être considérés comme composantes du salaire en espèces. Le salaire doit être payé à la clôture de chaque mois, sauf accord contraire entre les parties. Article 20 Chaque jour d'absence de la travailleuse ou du travailleur domestique sans permission de son employeur, est déduit du salaire, sauf accord contraire entre les deux parties. Article 21 La travailleuse ou le travailleur domestique a droit à une indemnité, en cas de licenciement après un an continu de travail effectif chez le même employeur. Le montant de ladite indemnité, pour chaque année ou fraction d'année de travail effectif, est égal à :  96 heures de salaire, pour la durée de travail effectif accompli durant les cinq premières années;  144 heures de salaire, pour la durée de travail effectif accompli durant la période allant de six à dix ans ;  192 heures de salaire, pour la durée de travail effectif accompli durant la période allant de onze à quinze ans;  240 heures de salaire, pour la durée de travail effectif accompli dépassant quinze ans. La durée de travail effectif prévue par cet article est comptée à partir de la date d'entrée en vigueur de la présente loi.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 10,
+                    "distance": 0.15362286567687988,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q008",
+            "question": "Quel est l'âge minimum d'admission au travail prévu par le Code du travail ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "results": [
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13025766611099243,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "32bb2c46efa9eb0f58c9483bbac3059bf5048ceec5c1972b3ef6d0814bb50f2c",
+                    "text": "- 62 - Titre II : De la protection du mineur et de la femme Chapitre Premier : De l'âge d'admission au travail Article 143 Les mineurs ne peuvent être employés ni être admis dans les entreprises ou chez les employeurs avant l'âge de quinze ans révolus19. Article 144 L'agent chargé de l'inspection du travail a, à tout moment, le droit de requérir l'examen par un médecin dans un hôpital relevant du ministère chargé de la santé publique de tous les mineurs salariés âgés de moins de dix-huit ans et tous les salariés handicapés, à l'effet de vérifier si le travail dont ils sont chargés n'excède pas leurs capacités ou ne convient pas à leur handicap. L'agent chargé de l'inspection du travail a le droit d'ordonner le renvoi des mineurs et des salariés handicapés de leur travail, sans préavis, en cas d'avis conforme dudit médecin et après examen contradictoire à la demande de leurs parents. Article 145 Aucun mineur de moins de 18 ans ne peut, sans autorisation écrite préalablement remise par l'agent chargé de l'inspection du travail pour chaque mineur et après consultation de son tuteur, être employé à titre 19 - L’âge mentionné ci-dessus par l’article 145 a été fixé conformément à la convention de l’organisation internationale du travail n° 138 relative à l’âge minimum d’admission à l’emploi signé le 26 Juin 1973. (et ratifiée par le Maroc le 6 Juin 2000). Ainsi qu’à l’article premier du dahir n° 1-00-200 du 15 Safar 1421 (19 Mai 2000) portant promulgation de la loi n° 04-00 modifiant et complétant le dahir n° 1-63-071 du 25 Joumada",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.13147252798080444,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "c2a5ef7a5a1e19bf529650a1636b8c6a5a65bbe1b8d2d1524d19c31448a7ba99",
+                    "text": "- 177 - Les conseils régionaux de la promotion de l'emploi sont également chargés d'élaborer un rapport annuel à présenter au Conseil supérieur de la promotion de l'emploi, sur les questions et perspectives d'emploi, accompagné des propositions et projets susceptibles de promouvoir l'emploi. Article 525 Les conseils régionaux et provinciaux de la promotion de l'emploi sont constitués de représentants de l'administration, des organisations professionnelles des employeurs et des syndicats professionnels des salariés les plus représentatifs. Le président du conseil peut inviter à participer à ses travaux toute personne reconnue pour sa compétence et son expertise dans le domaine de compétence du conseil. Le nombre des membres du conseil, leur mode de désignation et les modalités de fonctionnement des travaux dudit conseil sont fixés par arrêté conjoint du ministre chargé du travail et du ministre chargé de l'intérieur87. Chapitre VIII : De l'âge de la retraite Article 526 Tout salarié qui atteint l'âge de soixante ans doit être mis à la retraite. Toutefois, il peut continuer à être occupé après cet âge par arrêté de l'autorité gouvernementale chargée du travail sur demande de l'employeur et avec le consentement du salarié. L'âge de la retraite est fixé à cinquante-cinq ans pour les salariés du secteur minier qui justifient avoir travaillé au fond des mines pendant cinq années au moins. En ce qui concerne les salariés qui, à l'âge de soixante ans ou de cinquante-cinq ans, ne peuvent justifier de la période d'assurance fixée 87 - Arrêté du ministre de l’emploi et de la formation professionnelle n° 838-05 du 29 Hijja 1425 ( 9 Février 2005) fixant le nombre de conseils régionaux et provinciaux de promotion de l’emploi, les",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 177,
+                    "distance": 0.13647913932800293,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "9ea9658a13bde8d10e0b3d510a3fb574171ea60014d2687fb0e12731a436fe5a",
+                    "text": "du travail, publié dans l’édition arabe du Bulletin Officiel n°5902 du 17 moharrem 1432 (23 Décembre 2010), p. 5406. 42 - Arrêté du ministre de l’emploi et de la formation professionnelle n° 3126-10 du 15 Hijja 1431 (22 Novembre 2010) fixant la durée minimum que le médecin ou les médecins du travail doivent consacrer aux salariés publié dans l’édition arabe du Bulletin Officiel n°5902 du 17 moharrem 1432 (23 Décembre 2010), p. 5413.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 108,
+                    "distance": 0.13893353939056396,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q009",
+            "question": "Comment les travailleurs domestiques peuvent-ils déposer une plainte contre leur employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "be65f4b6122891bae919c6be6f860c6474af41110734d3725c22fcdb0db404e2",
+                    "text": "- 11 - Chapitre V : Contrôle et sanctions Article 22 Les agents chargés de l'inspection du travail reçoivent les plaintes déposées par la travailleuse ou le travailleur domestique à l'encontre de l'employeur, ou par l'employeur à l'encontre de la travailleuse ou le travailleur domestique en tout ce qui concerne l'exécution du contrat du travail conclu entre les deux parties. L'inspecteur du travail convoque les deux parties aux fins de s'assurer de l'application des dispositions de la présente loi. L'inspecteur du travail procède à des tentatives de conciliation entre les deux parties, consignées dans un procès-verbal signé par les deux parties. A défaut de conciliation, il dresse un procès-verbal remis à la travailleuse ou au travailleur domestique pour le produire en cas de recours à la juridiction compétente aux fins de statuer sur le conflit. L'inspecteur du travail peut demander aux parties de lui communiquer les documents lui permettant d'accomplir ladite mission. En cas de constatation d'infraction aux dispositions de la présente loi, il dresse un procès-verbal à cet effet et le transmet au ministère public compétent. Article 23 Est punie d'une amende de 25.000 à 30.000 dirhams :  toute personne qui emploie, durant la période transitoire prévue par l'alinéa deux de l'article 6 ci-dessus, une travailleuse ou un travailleur domestique âgé de moins de 16 ans ;  toute personne qui emploie une travailleuse ou un travailleur domestique âgé de moins de 18 ans après expiration de la période transitoire prévue par l'alinéa deux de l'article 6 ci- dessus;  toute personne qui emploie une travailleuse ou",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1274787187576294,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "5a1501b679d9d5f5ae77ccad9d6ba7b8ac4fe51bfdb2034c393bf0757363caca",
+                    "text": "- 4 - Article 2 Les travaux liés à la maison ou à la famille comprennent notamment les travaux suivants :  effectuer les tâches ménagères;  prendre soin des enfants;  prendre soin d'un membre de la famille en raison de son âge, de son incapacité, de sa maladie ou de sa situation d'handicap;  la conduite;  les travaux de jardinage;  le gardiennage de la maison. Chapitre II : Conditions d'emploi des travailleuses et travailleurs domestiques Article 3 La travailleuse ou le travailleur domestique est employé en vertu d'un contrat de travail à durée déterminée ou indéterminée, établi par l'employeur selon le modèle fixé par voie réglementaire. Ce contrat est signé par l'employeur et la travailleuse ou le travailleur domestique, à condition d'observer, lors de la signature, les conditions relatives au consentement et à la capacité des parties à contracter, ainsi qu'a l'objet et à la cause du contrat, telles qu'elles sont fixées par le code des obligations et des contrats. Le contrat est établi en trois exemplaires dont les signatures sont légalisées par l'autorité compétente. L'employeur remet un exemplaire du contrat à la travailleuse ou au travailleur domestique, et en conserve un, et dépose le troisième exemplaire, contre un reçu, auprès de l'inspection du travail compétente. En cas de travailleuses ou travailleurs domestiques étrangers, sont appliquées les dispositions des chapitres V et VI du livre IV de la loi n° 65- 99 relative au Code du travail, concernant l'emploi des salariés étrangers. Si l'inspecteur du travail constate l'existence de clauses contraires aux dispositions de la",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.14617919921875,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "fd99fa1ae33f90823d9ffebb20e5123d3b828a08670bdf7e98042e2f84097b11",
+                    "text": "- 12 -  toute personne physique qui fait de l'intermédiation, moyennant rémunération, pour l'emploi des travailleuses ou des travailleurs domestiques;  toute personne qui emploie une travailleuse ou un travailleur domestique contrairement aux dispositions de l'alinéa trois de l'article 6 ci-dessus;  toute personne qui emploie une travailleuse ou un travailleur domestique contre son gré. En cas de récidive, l'auteur des infractions susmentionnées sera puni d'une amende portée au double et d'un emprisonnement d'un à 3 mois ou de l'une de ces deux peines seulement. Article 24 Est puni d'une amende de 3.000 à 5.000 dirhams tout employeur qui n'observe pas les dispositions de l'article 3 ci-dessus. Article 25 Est puni d'une amende de 500 à 1.200 dirhams tout employeur, qui:  n'a pas délivré à la travailleuse ou au travailleur domestique le certificat de travail prévu par l'article 10, ou ne l'a pas délivré dans le délai prévu, ou n'y a pas mentionné l'une des indications prévues dans le même article;  n'a pas respecté les dispositions de l'article 13 fixant la durée du travail;  n'a pas respecté l'obligation d'accorder un repos hebdomadaire ou a refusé d'octroyer à la travailleuse ou au travailleur domestique son droit au repos compensateur prévu par l'article 14 ci- dessus;  a refusé d'accorder à la travailleuse domestique son droit au repos pour allaitement prévu par l'article 15 ci-dessus;  a refusé d'accorder",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 12,
+                    "distance": 0.14672929048538208,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "d560372098cc31e05ec51e77697de4ac478ad5e957f816a890fb966b61367b8f",
+                    "text": "Les conditions de travail et d'emploi des travailleuses et travailleurs domestiques",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 1,
+                    "distance": 0.1467585563659668,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q010",
+            "question": "Quelles sont les sanctions prévues en cas de non-respect des règles relatives au paiement des salaires ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "c45eafec37e2b0f646c3811c8971b5745a11c5c0fb082306becc9b2f3e9ed4a1",
+                    "text": "et pendant une durée de trois mois à compter de la proclamation des résultats des élections. Article 459 En cas de faute grave, l'employeur peut prononcer immédiatement la mise à pied du délégué des salariés sous réserve de saisir sans délai l'agent chargé de l'inspection du travail de la sanction disciplinaire à prendre.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 156,
+                    "distance": 0.13829922676086426,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "d799a2fe9ba5a16001f34b230cdfa3c0deeabe3f07aa00dcc2e53087e828ebfa",
+                    "text": "- 26 - 1. l'affiliation syndicale ou l'exercice d'un mandat du représentant syndical ; 2. la participation à des activités syndicales en dehors des heures de travail ou, avec le consentement de l'employeur ou conformément à la convention collective de travail ou au règlement intérieur, durant les heures de travail ; 3. le fait de se porter candidat à un mandat de délégué des salariés, de l'exercer ou de l'avoir exercé ; 4. le fait d'avoir déposé une plainte ou participé à des actions judiciaires contre l'employeur dans le cadre des dispositions de la présente loi ; 5. la race, la couleur, le sexe, la situation conjugale, les responsabilités familiales, la religion, l'opinion politique, l'ascendance nationale ou l'origine sociale ; 6. le handicap dans la mesure où il ne fait pas obstacle à l'exercice par le salarié handicapé d'une fonction adéquate au sein de l'entreprise. Article 37 L'employeur peut prendre l'une des sanctions disciplinaires suivantes à l'encontre du salarié pour faute non grave: 1. l'avertissement; 2. le blâme; 3. un deuxième blâme ou la mise à pied pour une durée n'excédant pas huit jours; 4. un troisième blâme ou le transfert à un autre service ou, le cas échéant, à un autre établissement, le lieu de résidence du salarié étant pris en considération. Les dispositions de l'article 62 ci-dessous sont applicables aux sanctions prévues aux 3° et 4° du présent article. Article 38 L'employeur applique les sanctions disciplinaires graduellement. Lorsque les sanctions disciplinaires sont épuisées dans l'année, l'employeur peut procéder au licenciement du salarié. Dans ce cas, le licenciement est considéré comme",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 26,
+                    "distance": 0.14400571584701538,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "61ee458f68b9eb6cc6da1e21a662e223fc890b08072e0cb04cac454e2397f9c9",
+                    "text": "'article 219; 4. le défaut de paiement de l'indemnité prévue par l'article 224 aux salariés des établissements visés à l'article 223 qui ont travaillé un jour férié et rémunéré ; 5. le repos compensateur prévu à l'article 224 (2e alinéa), et à l'article 225 non accordé ou accordé en violation des dispositions desdits articles ;",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 87,
+                    "distance": 0.14889371395111084,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "f1a9bb7859c5cb3be781533ccfe65e578f01a0486155b0db0cea39bbe15a7bfd",
+                    "text": "s prévues au dernier alinéa de l'article 37 et à l'article 39 ci- dessous ou fondé sur les nécessités de fonctionnement de l'entreprise dans le cadre des dispositions des articles 66 et 67 ci-dessous. Article 36 Ne constituent pas des motifs valables de prise de sanctions disciplinaires ou de licenciement :",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 25,
+                    "distance": 0.14908969402313232,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q011",
+            "question": "Quelles différences existe-t-il entre l'âge minimum d'emploi des travailleurs domestiques et celui prévu par le Code du travail pour les autres salariés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 0.5,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "9e031bb224f44ab3e8a5eecc9ad4445bfedd816c1c75c877e3bb720d8b4cc906",
+                    "text": "- 6 - Article 6 L'âge minimum d'admission à l'emploi comme travailleuses ou travailleurs domestiques est fixé à 18 ans. Toutefois, et durant une période transitoire de cinq (5) ans à partir de la date d'entrée en vigueur de la présente loi, peuvent être employées, des personnes âgées entre 16 et 18 ans en tant que travailleuses ou travailleurs domestiques à condition, d'obtenir une autorisation écrite de leurs tuteurs dont la signature est légalisée, aux fins de signer le contrat de travail les concernant. Les travailleuses et les travailleurs domestiques âgés entre 16 et 18 ans doivent être, obligatoirement soumis à un examen médical tous les six mois à la charge de l'employeur. Il est interdit d'occuper les travailleuses et les travailleurs domestiques cités dans l'alinéa précédent pendant la nuit. Il est aussi interdit de les employer dans des travaux en hauteur non sécurisés, dans le port des charges lourdes, dans l'utilisation des équipements, des outils et des produits dangereux, et dans tous les travaux qui présentent un danger manifeste sur leur santé ou leur sécurité ou leur moralité ou qui peuvent porter atteinte aux bonnes mœurs. La liste des travaux dans lesquels il est interdit d'employer les travailleuses et travailleurs domestiques âgés entre 16 et 18 ans peut être complétée par voie réglementaire. Article 7 Il est interdit de réquisitionner la travailleuse ou le travailleur domestique à exécuter un travail forcé ou contre son gré. Article 8 La période d'essai pour les contrats à durée indéterminée est fixée à quinze jours rémunérés. Pendant cette période, chacune des parties peut rompre, volontairement et sans indemnité, le contrat de travail. Article 9 La preuve de l'existence du contrat de travail de la travailleuse ou du travailleur domestique peut être rapport",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.11668705940246582,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "3d89717004647867c8ba3756cc6df145af1e02a456cd0aa200ca74fcd5b82982",
+                    "text": "de 18 ans après expiration de la période transitoire prévue par l'alinéa deux de l'article 6 ci- dessus;  toute personne qui emploie une travailleuse ou un travailleur domestique âgé entre 16 et 18 ans sans autorisation de son tuteur;",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.11930525302886963,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "aeb73eb5da52d9bb014f5ce8c14c4f36e68a02748ce09d282fd102847b2c4933",
+                    "text": "a refusé d'accorder à la travailleuse domestique son droit au repos pour allaitement prévu par l'article 15 ci-dessus;  a refusé d'accorder à la travailleuse ou au travailleur domestique son droit au congé annuel payé prévu par l'article 16 ci-dessus;  a occupé une travailleuse ou un travailleur domestique pendant les jours fériés et les jours de fêtes payés prévus par l'article 17",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 12,
+                    "distance": 0.1292690634727478,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "be65f4b6122891bae919c6be6f860c6474af41110734d3725c22fcdb0db404e2",
+                    "text": "- 11 - Chapitre V : Contrôle et sanctions Article 22 Les agents chargés de l'inspection du travail reçoivent les plaintes déposées par la travailleuse ou le travailleur domestique à l'encontre de l'employeur, ou par l'employeur à l'encontre de la travailleuse ou le travailleur domestique en tout ce qui concerne l'exécution du contrat du travail conclu entre les deux parties. L'inspecteur du travail convoque les deux parties aux fins de s'assurer de l'application des dispositions de la présente loi. L'inspecteur du travail procède à des tentatives de conciliation entre les deux parties, consignées dans un procès-verbal signé par les deux parties. A défaut de conciliation, il dresse un procès-verbal remis à la travailleuse ou au travailleur domestique pour le produire en cas de recours à la juridiction compétente aux fins de statuer sur le conflit. L'inspecteur du travail peut demander aux parties de lui communiquer les documents lui permettant d'accomplir ladite mission. En cas de constatation d'infraction aux dispositions de la présente loi, il dresse un procès-verbal à cet effet et le transmet au ministère public compétent. Article 23 Est punie d'une amende de 25.000 à 30.000 dirhams :  toute personne qui emploie, durant la période transitoire prévue par l'alinéa deux de l'article 6 ci-dessus, une travailleuse ou un travailleur domestique âgé de moins de 16 ans ;  toute personne qui emploie une travailleuse ou un travailleur domestique âgé de moins de 18 ans après expiration de la période transitoire prévue par l'alinéa deux de l'article 6 ci- dessus;  toute personne qui emploie une travailleuse ou",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13047152757644653,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q012",
+            "question": "Quelles obligations concernent le contrat de travail domestique et les procédures en cas de conflit avec l'employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.5,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "results": [
+                {
+                    "id": "79312ee1305fdf62850f789362f73f07245bcd68841286f5282c8a279eda17be",
+                    "text": "accord entre l'employeur et le travailleur domestique, à condition d'en bénéficier obligatoirement dans un délai d'un mois à compter de la date de naissance. Les absences citées ci-dessus sont payées intégralement excepté celle relative au mariage de la travailleuse ou du travailleur domestique.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 9,
+                    "distance": 0.133358895778656,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "be65f4b6122891bae919c6be6f860c6474af41110734d3725c22fcdb0db404e2",
+                    "text": "- 11 - Chapitre V : Contrôle et sanctions Article 22 Les agents chargés de l'inspection du travail reçoivent les plaintes déposées par la travailleuse ou le travailleur domestique à l'encontre de l'employeur, ou par l'employeur à l'encontre de la travailleuse ou le travailleur domestique en tout ce qui concerne l'exécution du contrat du travail conclu entre les deux parties. L'inspecteur du travail convoque les deux parties aux fins de s'assurer de l'application des dispositions de la présente loi. L'inspecteur du travail procède à des tentatives de conciliation entre les deux parties, consignées dans un procès-verbal signé par les deux parties. A défaut de conciliation, il dresse un procès-verbal remis à la travailleuse ou au travailleur domestique pour le produire en cas de recours à la juridiction compétente aux fins de statuer sur le conflit. L'inspecteur du travail peut demander aux parties de lui communiquer les documents lui permettant d'accomplir ladite mission. En cas de constatation d'infraction aux dispositions de la présente loi, il dresse un procès-verbal à cet effet et le transmet au ministère public compétent. Article 23 Est punie d'une amende de 25.000 à 30.000 dirhams :  toute personne qui emploie, durant la période transitoire prévue par l'alinéa deux de l'article 6 ci-dessus, une travailleuse ou un travailleur domestique âgé de moins de 16 ans ;  toute personne qui emploie une travailleuse ou un travailleur domestique âgé de moins de 18 ans après expiration de la période transitoire prévue par l'alinéa deux de l'article 6 ci- dessus;  toute personne qui emploie une travailleuse ou",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13466423749923706,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "4d9302dc802aff8e31f896dbf989b03d6bac08d9f7eea5eaf6da8cbb0ff128fb",
+                    "text": "- 10 - I. Les dispositions de la présente loi, les conventions et chartes internationales ratifiées en la matière ; II. Les conventions collectives ; III. Le contrat de travail ; IV. Les décisions d'arbitrage et les jurisprudences ; V. La coutume et l'usage lorsqu'ils ne sont pas en contradiction avec les dispositions de la présente loi et les principes mentionnés ci-dessus. VI. Les règles générales du droit ; VII. Les principes et règles d'équité.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 10,
+                    "distance": 0.13749974966049194,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "5a1501b679d9d5f5ae77ccad9d6ba7b8ac4fe51bfdb2034c393bf0757363caca",
+                    "text": "- 4 - Article 2 Les travaux liés à la maison ou à la famille comprennent notamment les travaux suivants :  effectuer les tâches ménagères;  prendre soin des enfants;  prendre soin d'un membre de la famille en raison de son âge, de son incapacité, de sa maladie ou de sa situation d'handicap;  la conduite;  les travaux de jardinage;  le gardiennage de la maison. Chapitre II : Conditions d'emploi des travailleuses et travailleurs domestiques Article 3 La travailleuse ou le travailleur domestique est employé en vertu d'un contrat de travail à durée déterminée ou indéterminée, établi par l'employeur selon le modèle fixé par voie réglementaire. Ce contrat est signé par l'employeur et la travailleuse ou le travailleur domestique, à condition d'observer, lors de la signature, les conditions relatives au consentement et à la capacité des parties à contracter, ainsi qu'a l'objet et à la cause du contrat, telles qu'elles sont fixées par le code des obligations et des contrats. Le contrat est établi en trois exemplaires dont les signatures sont légalisées par l'autorité compétente. L'employeur remet un exemplaire du contrat à la travailleuse ou au travailleur domestique, et en conserve un, et dépose le troisième exemplaire, contre un reçu, auprès de l'inspection du travail compétente. En cas de travailleuses ou travailleurs domestiques étrangers, sont appliquées les dispositions des chapitres V et VI du livre IV de la loi n° 65- 99 relative au Code du travail, concernant l'emploi des salariés étrangers. Si l'inspecteur du travail constate l'existence de clauses contraires aux dispositions de la",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13990676403045654,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q013",
+            "question": "Que garantit l'article 31 de la Constitution marocaine concernant l'accès au travail ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "9fa5e83df39900aadb962ee258e6e9700cff9ccceee046dfb909bf38b524614c",
+                    "text": "Sont garanties les libertés de réunion, de rassemblement, de manifestation pacifique, d'association et d’appartenance syndicale et politique. La loi fixe les conditions d’exercice de ces libertés. Le droit de grève est garanti. Une loi organique fixe les conditions et les modalités de son exercice. Article 30 Sont électeurs et éligibles tous les citoyennes et les citoyens majeurs jouissant de leurs droits civils et politiques. La loi prévoit des dispositions de nature à favoriser l’égal accès des femmes et des hommes aux fonctions électives. Le vote est un droit personnel et un devoir national. Les ressortissants étrangers jouissent des libertés fondamentales reconnues aux citoyennes et citoyens marocains, conformément à la loi. Ceux d’entre eux qui résident au Maroc peuvent participer aux élections locales en vertu de la loi, de l’application de conventions internationales ou de pratiques de réciprocité. Les conditions d’extradition et d’octroi du droit d’asile sont définies par la loi. Article 31 L’Etat, les établissements publics et les collectivités territoriales œuvrent à la mobilisation de tous les moyens disponibles pour faciliter l’égal accès des citoyennes et des citoyens aux conditions leur permettant de jouir du droit : – aux soins de santé ; – à la protection sociale, à la couverture médicale et à la solidarité mutualiste ou organisée par l’Etat ; – à une éducation moderne, accessible et de qualité ; – à l’éducation sur l’attachement à l’identité marocaine et aux constantes nationales immuables ; – à la formation professionnelle et à l’éducation physique et artistique ; – à un logement décent ; – au travail et à l’appui des pouvoirs publics en matière de recherche d’",
+                    "source": "Constitution du Royaume du Maroc 2011",
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.1162024736404419,
+                    "access": "public",
+                    "file": "data\\raw\\constitution_2011.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "b22095f249dc358fe8867533f9cf91ca42aa0f7fd986def4f7148008719bf013",
+                    "text": "de connaître, à l'avance, leurs droits et obligations respectifs, et ce dans le cadre d'un contrat social global de solidarité. \" Convaincu que le travail est un moyen essentiel pour le développement du pays, la préservation de la dignité de l'homme et l'amélioration de son niveau de vie ainsi que pour la réalisation des conditions favorables à sa stabilité familiale et à son progrès social ; Conscient que chaque personne a le droit de bénéficier des services publics gratuits en matière d'emploi, ainsi que le droit à un emploi adapté à son état de santé, à ses qualifications et ses aptitudes, et de choisir en toute liberté l'exercice d'un emploi ou toute activité non interdite par la loi ; Considérant la nécessité de mise à niveau de l'économie nationale qui figure parmi les choix économiques du Maroc, qui est tributaire d'un",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 4,
+                    "distance": 0.13054466247558594,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "1c27d8049a047515e5ad4f71f31b1c4e4f48660f9ee8fb6996cb0ff5240c4461",
+                    "text": "- 6 - environnement et la garantie de la santé et de la sécurité sur les lieux du travail ; Tenant au respect des droits et libertés garanties par la Constitution dans le domaine du travail, en plus des principes des droits de l'Homme tels qu'ils sont universellement reconnus, ainsi que des conventions de l'organisation internationale du travail ratifiées par le Maroc, notamment celles concernant la liberté du travail et l'exercice de l'activité syndicale, le droit à l'organisation et à la négociation, le droit à l'initiative et à la propriété et la protection de la femme et de l'enfant. Visant à renforcer la culture ouvrière en communiquant aux salariés par tous les moyens, et par le biais de leurs représentants, toutes les informations et données susceptibles de participer à l'amélioration de leur situation, de rehausser leur qualification et de promouvoir l'entreprise. Le présent Code de travail vient à un moment où le Maroc déploie tous ses efforts pour réussir les chantiers de la mise à niveau économique et sociale afin de répondre aux paris du développement et de relever les défis de la mondialisation et de la concurrence, ainsi que pour favoriser l'investissement national et étranger dans le secteur privé, en raison du rôle important qu'il est appelé à jouer dans l'édification d'une économie moderne. Le présent Code de travail a été élaboré avec la participation des opérateurs économiques et sociaux qui sont profondément convaincus du rôle qu'ils doivent jouer pour garantir un climat propice pour les relations dans le monde du travail, et ce pour s'inscrire dans le contexte du discours de Sa Majesté le Roi Mohammed VI que Dieu le glorifie : \" Convaincus que malgré le caractère essentiel que revêtent les conditions matérielles, financières et juridiques dans l'incitation à l'",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 6,
+                    "distance": 0.13119161128997803,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "6dea2846b31bd9d7651112905a8b2dbc3b57f3809e8c420d36260e2a94acac2a",
+                    "text": "- 198 - Le décret royal n° 314-66 du 8 joumada I 1387 (14 août 1967) portant loi relatif au maintien de l'activité des entreprises industrielles et commerciales et au licenciement de leur personnel ; Conventions collectives de travail : Le dahir n° 1-57-067 du 16 ramadan 1376 (17 avril 1957) relatif à la convention collective de travail. Le dahir n° 1-58-145 du 10 joumada II 1380 (29 novembre 1960) portant institution d'un conseil supérieur des conventions collectives ; Immigration : Le dahir du 7 chaabane 1353 (15 novembre 1934) réglementant l'immigration ; Les dispositions dudit dahir subsistent en ce qui concerne les personnes autres que les salariés tels que définis à l'article 3 de la présente loi100; Emigration : Dahir du 16 moharrem 1369 (8 novembre 1949) portant réglementation de l'émigration des travailleurs marocains ; Réglementation du travail, durée du travail, repos : Le dahir du 13 chaabane 1366 (2 juillet 1947) portant réglementation du travail ; Le dahir portant loi n° 1-72-219 du 20 rabii I 1393 (24 avril 1973) déterminant les conditions d'emploi et de rémunération des salariés agricoles ; Le dahir du 28 rabii I 1355 (18 juin 1936) portant réglementation de la durée du travail ; Le dahir du 2 ramadan 1366 (21 juillet 1947) relatif au repos hebdomadaire et au repos des jours fériés ; 100 - Comparer avec l’article 58 du Dahir n° 1-03-196 du 16 Ramadan 1424 (11Novembre 2003) portant promulgation de la loi n° 02-03 relative à l'entrée et au séjour des étrangers au Royaume du Maroc, à l'émigration et l'immigration irrégulières",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.13492560386657715,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q014",
+            "question": "Que prévoit l'article 19 de la Constitution concernant l'égalité entre les femmes et les hommes ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "results": [
+                {
+                    "id": "02bcd83241f3c29c220a69e29d9827d9de0e36be3156d506b0d3240d6a9bd8ac",
+                    "text": "Il veille au renforcement de leur contribution au développement de leur Patrie, le Maroc, et au resserrement des liens d'amitié et de coopération avec les gouvernements et les sociétés des pays où ils résident, ou dont ils sont aussi citoyens. Article 17 Les Marocains résidant à l'étranger jouissent des droits de pleine citoyenneté, y compris le droit d’être électeurs et éligibles. Ils peuvent se porter candidats aux élections au niveau des listes et des circonscriptions électorales locales, régionales et nationales. La loi fixe les critères spécifiques d'éligibilité et d'incompatibilité. Elle détermine, de même, les conditions et les modalités de l'exercice effectif du droit de vote et de candidature à partir des pays de résidence. Article 18 Les pouvoirs publics œuvrent à assurer une participation aussi étendue que possible des Marocains résidant à l'étranger, aux institutions consultatives et de bonne gouvernance créées par la Constitution ou par la loi. TITRE II LIBERTES ET DROITS FONDAMENTAUX Article 19 L'homme et la femme jouissent, à égalité, des droits et libertés à caractère civil, politique, économique, social, culturel et environnemental, énoncés dans le présent Titre et dans les autres dispositions de la Constitution, ainsi que dans les conventions et pactes internationaux dûment ratifiés par le Maroc et ce, dans le respect des dispositions de la Constitution, des constantes du Royaume et de ses lois. L’Etat œuvre à la réalisation de la parité entre les hommes et les femmes. Il est créé, à cet effet, une Autorité pour la parité et la lutte contre toutes formes de discrimination. Article 20 Le droit à la vie est",
+                    "source": "Constitution du Royaume du Maroc 2011",
+                    "document_id": "constitution_2011",
+                    "page": 6,
+                    "distance": 0.14065104722976685,
+                    "access": "public",
+                    "file": "data\\raw\\constitution_2011.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "a79490f600b08f175bf0f1d8f5b2fdc050d7fea8fed0f2592974879ce88565f3",
+                    "text": "- 9 - Toute personne est libre d'exercer toute activité non interdite par la loi. Personne ne peut interdire à autrui de travailler ou de le contraindre au travail à l'encontre de sa volonté. Le travail peut être interdit par décision de l'autorité compétente conformément à la loi et ce, en cas d'atteinte aux droits d'autrui ou à la sécurité et à l'ordre publics. Est interdite toute mesure visant à porter atteinte à la stabilité des salariés dans le travail pour l'une des raisons suivantes : 1- la participation à un conflit collectif ; 2- l'exercice du droit de négociation collective ; 3- la grossesse ou la maternité ; 4- le remplacement définitif d'un ouvrier victime d'un accident du travail ou d'une maladie professionnelle avant l'expiration de la durée de sa convalescence. Les salariés doivent être avisés par les représentants des syndicats ou, en leur absence, par les délégués des salariés des informations et données relatives : 1- aux changements structurels et technologiques de l'entreprise avant leur exécution ; 2- la gestion des ressources humaines de l'entreprise ; 3- le bilan social de l'entreprise ; 4- la stratégie de production de l'entreprise. Les dispositions de la présente loi sont applicables sur l'ensemble du territoire national sans discrimination entre les salariés fondés sur la race, la couleur, le sexe, le handicap, la situation conjugale, la religion, l'opinion politique, l'appartenance syndicale, l'origine nationale ou sociale. Les droits contenus dans ce texte sont considérés comme un minimum de droits auquel on ne peut renoncer. En cas de contradiction entre les textes de loi, la priorité est donnée à l'application de ceux qui sont les plus avantageux",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.15559005737304688,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "e675f7911333c271fb86cf1172fe7e96d9cff5ec562f66d5ccfe039dade3c01b",
+                    "text": "- 15 - 1. être chargés soit directement, soit par un intermédiaire d'exécuter un travail, moyennant une rémunération, pour le compte d'une ou plusieurs des entreprises visées à l'article premier ci-dessus ; 2. travailler soit seuls, soit avec un seul assistant ou avec leurs conjoints ou leurs enfants non-salariés. Titre III : Dispositions générales Article 9 Est interdite toute atteinte aux libertés et aux droits relatifs à l'exercice syndical à l'intérieur de l'entreprise, conformément à la législation et la réglementation en vigueur ainsi que toute atteinte à la liberté de travail à l'égard de l'employeur et des salariés appartenant à l'entreprise. Est également interdite à l'encontre des salariés, toute discrimination fondée sur la race, la couleur, le sexe, le handicap, la situation conjugale, la religion, l'opinion politique, l'affiliation syndicale, l'ascendance nationale ou l'origine sociale, ayant pour effet de violer ou d'altérer le principe d'égalité des chances ou de traitement sur un pied d'égalité en matière d'emploi ou d'exercice d'une profession, notamment, en ce qui concerne l'embauchage, la conduite et la répartition du travail, la formation professionnelle, le salaire, l'avancement, l'octroi des avantages sociaux, les mesures disciplinaires et le licenciement. Il découle notamment des dispositions précédentes : 1. le droit pour la femme de conclure un contrat de travail ; 2. l'interdiction de toute mesure discriminatoire fondée sur l'affiliation ou l'activité syndicale des salariés ; 3. le droit de la femme, mariée ou non, d'adhérer à un syndicat professionnel et de participer à",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15778207778930664,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "8aeef3cbf1df7743207ab078f1252c905da1e23f14a4a4691cf78879066547f6",
+                    "text": "- 2 - DAHIR No 1-16-121 DU 6 KAADA 1437 (10 AOUT 2016) PORTANT PROMULGATION DE LA LOI N° 19-12 FIXANT LES CONDITIONS DE TRAVAIL ET D'EMPLOI DES TRAVAILLEUSES ET TRAVAILLEURS DOMESTIQUES. 1 LOUANGE A DIEU SEUL! (Grand Sceau de Sa Majesté Mohammed VI) Que l'on sache par les présentes - puisse Dieu en élever et en fortifier la teneur! Que Notre Majesté Chérifienne, Vu la Constitution, notamment ses articles 42 et 50, A DÉCIDÉ CE QUI SUIT: Est promulguée et sera publiée au Bulletin officiel, à la suite du présent dahir, la loi n° 19-12 fixant les conditions de travail et d'emploi des travailleuses et travailleurs domestiques, telle qu'adoptée par la Chambre des conseillers et la Chambre des représentants. Fait à Tétouan, le 6 kaada 1437 (10 août 2016). Pour contreseing: Le Chef du gouvernement, ABDEL-ILAH BENKIRAN. 1- Bulletin officiel n°6610 du 14 moharrem 1439 (5-10-2017), page 1038.",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 2,
+                    "distance": 0.15946710109710693,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q015",
+            "question": "Que prévoit l'article 29 de la Constitution concernant la liberté syndicale ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "de8af2cf38d0436b067cdb29eb2ea2f46b187fc766b357ba547738b1f930e25d",
+                    "text": "- 7 - LOI N°65-99 RELATIVE AU CODE DU TRAVAIL Préambule La présente législation du travail se caractérise par sa conformité avec les principes de bases fixés par la Constitution et avec les normes internationales telles que prévues dans les conventions des Nations unies et de ses organisations spécialisées en relation avec le domaine du travail. Le travail est l'un des moyens essentiels pour le développement du pays, la préservation de la dignité de l'homme et l'amélioration de son niveau de vie ainsi que pour la réalisation des conditions appropriées pour sa stabilité familiale et son développement social. Le travail ne constitue pas une marchandise et le travailleur n'est pas un outil de production. Il n'est donc permis, en aucun cas, d'exercer le travail dans des conditions portant atteinte à la dignité du travailleur. La négociation collective est l'un des droits essentiel du travail. Son exercice ne fait pas obstacle à l'Etat de jouer son rôle de protection et d'amélioration des conditions du travail et de préservation des droits du travailleur par l'intermédiaire de textes législatifs et réglementaires. La négociation se déroule d'une manière régulière et obligatoire à tous les niveaux et dans tous les secteurs et entreprises soumis à la présente loi. La liberté syndicale est l'un des droits principaux du travail. Son exercice entre dans le cadre des moyens reconnus aux travailleurs et aux employeurs pour défendre leurs droits matériels et moraux ainsi que leurs intérêts économiques, sociaux et professionnels. Il en résulte, tout particulièrement, la nécessité d'assurer la protection des représentants syndicaux et les conditions leurs permettant d'accomplir leur mission de représentation au sein de l'entreprise et de participer au processus de développement économique et social et de",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 7,
+                    "distance": 0.13590693473815918,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "a79490f600b08f175bf0f1d8f5b2fdc050d7fea8fed0f2592974879ce88565f3",
+                    "text": "- 9 - Toute personne est libre d'exercer toute activité non interdite par la loi. Personne ne peut interdire à autrui de travailler ou de le contraindre au travail à l'encontre de sa volonté. Le travail peut être interdit par décision de l'autorité compétente conformément à la loi et ce, en cas d'atteinte aux droits d'autrui ou à la sécurité et à l'ordre publics. Est interdite toute mesure visant à porter atteinte à la stabilité des salariés dans le travail pour l'une des raisons suivantes : 1- la participation à un conflit collectif ; 2- l'exercice du droit de négociation collective ; 3- la grossesse ou la maternité ; 4- le remplacement définitif d'un ouvrier victime d'un accident du travail ou d'une maladie professionnelle avant l'expiration de la durée de sa convalescence. Les salariés doivent être avisés par les représentants des syndicats ou, en leur absence, par les délégués des salariés des informations et données relatives : 1- aux changements structurels et technologiques de l'entreprise avant leur exécution ; 2- la gestion des ressources humaines de l'entreprise ; 3- le bilan social de l'entreprise ; 4- la stratégie de production de l'entreprise. Les dispositions de la présente loi sont applicables sur l'ensemble du territoire national sans discrimination entre les salariés fondés sur la race, la couleur, le sexe, le handicap, la situation conjugale, la religion, l'opinion politique, l'appartenance syndicale, l'origine nationale ou sociale. Les droits contenus dans ce texte sont considérés comme un minimum de droits auquel on ne peut renoncer. En cas de contradiction entre les textes de loi, la priorité est donnée à l'application de ceux qui sont les plus avantageux",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.1450510025024414,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "e675f7911333c271fb86cf1172fe7e96d9cff5ec562f66d5ccfe039dade3c01b",
+                    "text": "- 15 - 1. être chargés soit directement, soit par un intermédiaire d'exécuter un travail, moyennant une rémunération, pour le compte d'une ou plusieurs des entreprises visées à l'article premier ci-dessus ; 2. travailler soit seuls, soit avec un seul assistant ou avec leurs conjoints ou leurs enfants non-salariés. Titre III : Dispositions générales Article 9 Est interdite toute atteinte aux libertés et aux droits relatifs à l'exercice syndical à l'intérieur de l'entreprise, conformément à la législation et la réglementation en vigueur ainsi que toute atteinte à la liberté de travail à l'égard de l'employeur et des salariés appartenant à l'entreprise. Est également interdite à l'encontre des salariés, toute discrimination fondée sur la race, la couleur, le sexe, le handicap, la situation conjugale, la religion, l'opinion politique, l'affiliation syndicale, l'ascendance nationale ou l'origine sociale, ayant pour effet de violer ou d'altérer le principe d'égalité des chances ou de traitement sur un pied d'égalité en matière d'emploi ou d'exercice d'une profession, notamment, en ce qui concerne l'embauchage, la conduite et la répartition du travail, la formation professionnelle, le salaire, l'avancement, l'octroi des avantages sociaux, les mesures disciplinaires et le licenciement. Il découle notamment des dispositions précédentes : 1. le droit pour la femme de conclure un contrat de travail ; 2. l'interdiction de toute mesure discriminatoire fondée sur l'affiliation ou l'activité syndicale des salariés ; 3. le droit de la femme, mariée ou non, d'adhérer à un syndicat professionnel et de participer à",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.14931505918502808,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "1d9e9551398f85007d7f6aac3d0cdc2d1aa1ce57b60fe5a82eefb61a3914f791",
+                    "text": "la protection des représentants syndicaux et les conditions leurs permettant d'accomplir leur mission de représentation au sein de l'entreprise et de participer au processus de développement économique et social et de bâtir des relations professionnelles saines dans l'intérêt tant des travailleurs que des employeurs. (Le présent code rend hommage à l'action du mouvement syndical marocain dans la lutte pour l'indépendance du pays).",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 7,
+                    "distance": 0.1500866413116455,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q016",
+            "question": "Comment le Code de la famille définit-il le mariage dans son article 4 ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "ef4cc98193675170bd8ef4f626bbcd37242310349b1380f51dd6538809b7f58c",
+                    "text": "– à la formation professionnelle et à l’éducation physique et artistique ; – à un logement décent ; – au travail et à l’appui des pouvoirs publics en matière de recherche d’emploi ou d’auto- emploi ; – à l’accès aux fonctions publiques selon le mérite ; – à l’accès à l’eau et à un environnement sain ; – au développement durable. Article 32 La famille, fondée sur le lien légal du mariage, est la cellule de base de la société. L’Etat œuvre à garantir, par la loi, la protection de la famille sur les plans juridique, social et économique, de manière à garantir son unité, sa stabilité et sa préservation. Il assure une égale protection juridique et une égale considération sociale et morale à tous les enfants, abstraction faite de leur situation familiale. L’enseignement fondamental est un droit de l’enfant et une obligation de la famille et de l’Etat. Il est créé un Conseil consultatif de la famille et de l’enfance. Article 33 Il incombe aux pouvoirs publics de prendre toutes les mesures appropriées en vue : – d’étendre et généraliser la participation de la jeunesse au développement social, économique, culturel et politique du pays ; – d’aider les jeunes à s’insérer dans la vie active et associative et prêter assistance à ceux en difficulté d’adaptation scolaire, sociale ou professionnelle ; – de faciliter l’accès des jeunes à la culture, à la science, à la technologie, à l’art, au sport et aux loisirs, tout en créant les conditions propices au plein déploiement de leur potentiel créatif et innovant dans tous ces domaines. Il est créé à cet effet un Conseil consultatif de la jeunesse et de l’action associative. BDJTM - Détail Document https://bdj.mmsp.",
+                    "source": "Constitution du Royaume du Maroc 2011",
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.15394842624664307,
+                    "access": "public",
+                    "file": "data\\raw\\constitution_2011.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "7e60e9ef2a8fce4360a844fafad685f11a6ddfe1e3cd24f6341d12623fc9caf5",
+                    "text": "l'affiliation ou l'activité syndicale des salariés ; 3. le droit de la femme, mariée ou non, d'adhérer à un syndicat professionnel et de participer à son administration et à sa gestion. Article 10 Il est interdit de réquisitionner les salariés pour exécuter un travail forcé ou contre leur gré.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15413475036621094,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "50f86c77e965a2fd93e1e99d5db57ac34b92de305a09bde8cdecc41e1a863bfa",
+                    "text": "- 99 - travail, l'employeur peut le considérer comme démissionnaire de son emploi. Article 273 Sauf disposition contraire du contrat de travail, d'une convention collective de travail ou du règlement intérieur, les absences pour maladie ou accident, autres qu'une maladie professionnelle ou accident du travail, ne sont pas rémunérées, quelle que soit la périodicité de la paie. Section III : Des absences diverses Article 274 Le salarié bénéficie de permissions d'absence en cas d'événements familiaux. La durée de ces absences est la suivante : 1) Mariage : - du salarié : quatre jours ; - d'un enfant du salarié ou d'un enfant issu d'un précédent mariage du conjoint du salarié : deux jours ; 2) Décès : - d'un conjoint, d'un enfant, d'un petit-enfant, d'un ascendant du salarié ou d'un enfant issu d'un précédent mariage du conjoint du salarié : trois jours ; - d'un frère, d'une sœur du salarié, d'un frère ou d'une sœur du conjoint de celui-ci ou d'un ascendant du conjoint : deux jours. 3) Autres absences : - circoncision : deux jours ; - opération chirurgicale du conjoint ou d'un enfant à charge : deux jours. Article 275 Le salarié bénéficie d'une permission d'absence pour passer un examen, effectuer un stage sportif national ou participer à une compétition internationale ou nationale officielle.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 99,
+                    "distance": 0.15471255779266357,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "0c657b0defd5846501c1c4a6a5a312edb4e60ed36b6fd4f7c41c5dc7addd2993",
+                    "text": "- 9 - Article 17 La travailleuse ou le travailleur domestique bénéficie d'un repos payé pendant les jours de fêtes religieuses et nationales. Ces jours de repos peuvent être reportés à une date ultérieure fixée d'un commun accord entre les deux parties. Article 18 La travailleuse ou le travailleur domestique bénéficie de permissions d'absence en cas d'événements familiaux. La durée de ces absences est fixée comme suit:  mariage de la travailleuse ou du travailleur domestique: sept jours dont quatre jours payés;  mariage d'un enfant de la travailleuse ou du travailleur domestique ou d'un enfant issu d'un précédent mariage de son conjoint: deux jours;  décès d'un conjoint, d'un enfant, ou d'un petit-enfant, d'un ascendant de la travailleuse ou du travailleur domestique ou d'un enfant issu d'un précédent mariage de son conjoint: trois jours;  décès d'un frère ou d'une sœur de la travailleuse ou du travailleur domestique, d'un frère ou d'une sœur ou d'un ascendant du conjoint: deux jours;  opération chirurgicale du conjoint ou d'un enfant de la travailleuse ou du travailleur domestique: deux jours;  circoncision de l'un des enfants de la travailleuse ou du travailleur domestique: un jour. Tout travailleur domestique a droit, également, à un congé de trois jours à l'occasion de chaque naissance. Ces trois jours peuvent être continus ou discontinus, après accord entre l'employeur et le travailleur domestique, à condition d'en bénéficier obligatoirement dans un délai d'un mois à compter de la date de naissance. Les absences cit",
+                    "source": "Loi marocaine 19-12 relative au travail domestique",
+                    "document_id": "loi_19_12",
+                    "page": 9,
+                    "distance": 0.1552944779396057,
+                    "access": "public",
+                    "file": "data\\raw\\loi_19_12.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q017",
+            "question": "Que prévoit l'article 94 du Code de la famille concernant les conflits entre époux ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "a79490f600b08f175bf0f1d8f5b2fdc050d7fea8fed0f2592974879ce88565f3",
+                    "text": "- 9 - Toute personne est libre d'exercer toute activité non interdite par la loi. Personne ne peut interdire à autrui de travailler ou de le contraindre au travail à l'encontre de sa volonté. Le travail peut être interdit par décision de l'autorité compétente conformément à la loi et ce, en cas d'atteinte aux droits d'autrui ou à la sécurité et à l'ordre publics. Est interdite toute mesure visant à porter atteinte à la stabilité des salariés dans le travail pour l'une des raisons suivantes : 1- la participation à un conflit collectif ; 2- l'exercice du droit de négociation collective ; 3- la grossesse ou la maternité ; 4- le remplacement définitif d'un ouvrier victime d'un accident du travail ou d'une maladie professionnelle avant l'expiration de la durée de sa convalescence. Les salariés doivent être avisés par les représentants des syndicats ou, en leur absence, par les délégués des salariés des informations et données relatives : 1- aux changements structurels et technologiques de l'entreprise avant leur exécution ; 2- la gestion des ressources humaines de l'entreprise ; 3- le bilan social de l'entreprise ; 4- la stratégie de production de l'entreprise. Les dispositions de la présente loi sont applicables sur l'ensemble du territoire national sans discrimination entre les salariés fondés sur la race, la couleur, le sexe, le handicap, la situation conjugale, la religion, l'opinion politique, l'appartenance syndicale, l'origine nationale ou sociale. Les droits contenus dans ce texte sont considérés comme un minimum de droits auquel on ne peut renoncer. En cas de contradiction entre les textes de loi, la priorité est donnée à l'application de ceux qui sont les plus avantageux",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.15327870845794678,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "7e60e9ef2a8fce4360a844fafad685f11a6ddfe1e3cd24f6341d12623fc9caf5",
+                    "text": "l'affiliation ou l'activité syndicale des salariés ; 3. le droit de la femme, mariée ou non, d'adhérer à un syndicat professionnel et de participer à son administration et à sa gestion. Article 10 Il est interdit de réquisitionner les salariés pour exécuter un travail forcé ou contre leur gré.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15494829416275024,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "50f86c77e965a2fd93e1e99d5db57ac34b92de305a09bde8cdecc41e1a863bfa",
+                    "text": "- 99 - travail, l'employeur peut le considérer comme démissionnaire de son emploi. Article 273 Sauf disposition contraire du contrat de travail, d'une convention collective de travail ou du règlement intérieur, les absences pour maladie ou accident, autres qu'une maladie professionnelle ou accident du travail, ne sont pas rémunérées, quelle que soit la périodicité de la paie. Section III : Des absences diverses Article 274 Le salarié bénéficie de permissions d'absence en cas d'événements familiaux. La durée de ces absences est la suivante : 1) Mariage : - du salarié : quatre jours ; - d'un enfant du salarié ou d'un enfant issu d'un précédent mariage du conjoint du salarié : deux jours ; 2) Décès : - d'un conjoint, d'un enfant, d'un petit-enfant, d'un ascendant du salarié ou d'un enfant issu d'un précédent mariage du conjoint du salarié : trois jours ; - d'un frère, d'une sœur du salarié, d'un frère ou d'une sœur du conjoint de celui-ci ou d'un ascendant du conjoint : deux jours. 3) Autres absences : - circoncision : deux jours ; - opération chirurgicale du conjoint ou d'un enfant à charge : deux jours. Article 275 Le salarié bénéficie d'une permission d'absence pour passer un examen, effectuer un stage sportif national ou participer à une compétition internationale ou nationale officielle.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 99,
+                    "distance": 0.15624737739562988,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "c0d6fb3102d4f9bdf4044c336ae2a7548e49599c1c001be5f127b4ab4cd842d7",
+                    "text": "n° 2-04-469 du 16 kaada 1425 (29 Décembre 2004) relatif au délai de préavis pour la rupture unilatérale du contrat de travail à durée indéterminée; Bulletin Officiel n°5280 du 24 kaada 1425 (6 Janvier 2005), p. 23.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 29,
+                    "distance": 0.15752243995666504,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q018",
+            "question": "Que prévoit l'article 163 du Code de la famille concernant la garde des enfants ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "bd3cd51984a6112421324538fb4d0b1aa98bbe43c1dfd0bba920d77d0217613f",
+                    "text": "- 67 - Article 161 Pendant une période de douze mois courant à compter de la date de la reprise du travail après l'accouchement, la mère salariée a droit quotidiennement, pour allaiter son enfant, durant les heures de travail, à un repos spécial, rémunéré comme temps de travail, d'une demi-heure le matin et d'une demi-heure l'après-midi. Cette heure est indépendante des périodes de repos appliquées à l'entreprise. La mère salariée peut, en accord avec son employeur, bénéficier de l'heure réservée à l'allaitement à tout moment pendant les jours de travail. Article 162 Une chambre spéciale d'allaitement doit être aménagée dans toute entreprise ou à proximité immédiate lorsque cette entreprise occupe au moins cinquante salariées âgées de plus de seize ans. Les chambrés d'allaitement peuvent servir de garderies pour les enfants des salariées travaillant dans l'entreprise. Les conditions d'admission des enfants, celles requises dans les chambres d'allaitement ainsi que les conditions de surveillance et d'installations d'hygiène de ces chambres sont fixées par l'autorité gouvernementale chargée du travail21. Article 163 Plusieurs entreprises voisines dans une zone déterminée peuvent contribuer à la création d'une garderie aménagée suivant les conditions appropriées. Article 164 Toute convention contraire aux dispositions des articles 152 à 163 est nulle de plein droit. 21 - Arrêté du ministre de l’emploi et de la formation professionnelle n° 339-05 du 29 Hijja 1425 (9 Février 2005) fixant les conditions d’admission des nourrissons et des chambres d’allaitement ainsi que les conditions de surveillance et d’installation d’hygiène dans ces chambres; Bulletin Offi",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 67,
+                    "distance": 0.1381993293762207,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "55b66565d291906b05261537ed9b92d3fcbe5b09c126d8d7a56066dbcfc1537a",
+                    "text": "- 68 - Article 165 1. Sont punis d'une amende de 10.000 à 20.000 dirhams : 2. la rupture, hors les cas prévus par l'article 159, du contrat de travail d'une salariée en état de grossesse attesté par un certificat médical ou en couches se trouvant dans la période de quatorze semaines qui suit l'accouchement ; 3. l'emploi d'une salariée en couches durant la période de sept semaines suivant l'accouchement ; 4. le refus de suspendre le contrat de travail d'une salariée, en violation des dispositions de l'article 154. 5. Sont punis d'une amende de 2.000 à 5.000 dirhams : 6. le refus de repos spécial accordé à la salariée pendant les heures de travail aux fins d'allaitement pendant la période prévue par l'article 161 ; 7. le non-respect des dispositions de l'article 162 concernant la création de la chambre spéciale d'allaitement et des dispositions de la réglementation en vigueur concernant les conditions d'admission des enfants, d'équipement, de surveillance et d'installations d'hygiène desdites chambres. Chapitre III : Dispositions particulières au travail et à la protection des handicapés Article 166 Tout salarié devenu handicapé, pour quelque cause que ce soit, garde son emploi et est chargé, après avis du médecin de travail ou de la commission de sécurité et d'hygiène, d'un travail qui correspond à son handicap, après une formation de réadaptation, sauf si cela s'avère impossible vu la gravité de l'handicap et la nature du travail. Article 167 Il est interdit d'employer les salariés handicapés à des travaux pouvant leur porter préjudice ou susceptibles d'aggraver leur handicap.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 68,
+                    "distance": 0.14586466550827026,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "11ba2e9b314778078f1bdf65bdfb43e4daeda8ecd4fb2758f6cee27c5058e1df",
+                    "text": "et des dahirs portant loi mentionnés à l'article précédent tant qu'ils ne sont pas contraires aux dispositions de la présente loi. 101 - Voir articles du 5 au 10 dudit dahir n°1-03-196. 102 - Bulletin Officiel n° 2339 du 23 Aout 1957, p. 1110.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 200,
+                    "distance": 0.14969897270202637,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "a077e2e6c563b40467fd4a02f8c7e8e39197174b0207f9b5099961c65b0d28b5",
+                    "text": "elle ne présentant pas un caractère périodique, l'employeur peut déroger aux dispositions du 2e alinéa de l'article 173 ci- 23 - Décret n° 2-04-568 du 16 kaada 1425 (29 Décembre 2004) fixant les conditions devant être mises en place pour faciliter le travail de nuit des femmes. Bulletin Officiel n°5280 du 24 kaada 1425 (6 Janvier 2005), p. 26.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 70,
+                    "distance": 0.15382641553878784,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q019",
+            "question": "Quelle peine prévoit l'article 392 du Code pénal marocain pour l'homicide volontaire ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "2fb468356443c7934500d5dd7d029e2dda82974fe60616879cc5e13f4383f243",
+                    "text": "la loi n° 02-03 relative à l'entrée et au séjour des étrangers au Royaume du Maroc, à l'émigration et l'immigration irrégulières; Bulletin Officiel n° 5162 du 25 Ramadan 1425 (20 Novembre 2003), p. 1295.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.16913282871246338,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "06b70ee00acb76d38a7587f0fac5bacd696f297e89e60c77862bda64a7b3eb89",
+                    "text": "- 150 - Section II : Electorat et éligibilité Article 437 Les délégués des salariés sont élus, d'une part, par les ouvriers et employés, d'autre part, par les cadres et assimilés. Le nombre et la composition des collèges électoraux peuvent être modifiés par les conventions collectives de travail ou par les conventions passées entre organisations d'employeurs et de salariés. La répartition des établissements au sein de l'entreprise, des membres salariés entre les collèges électoraux et la répartition des sièges entre les collèges font l'objet d'un accord entre l'employeur et les salariés ou, si un accord ne peut être trouvé, d'un arbitrage de l'agent chargé de l'inspection du travail. Article 438 Sont électeurs, les salariés des deux sexes âgés de seize ans révolus, ayant travaillé au moins six mois dans l'établissement et n'ayant encouru, sous réserve de réhabilitation, aucune condamnation définitive, soit à une peine criminelle, soit à une peine d'emprisonnement ferme prononcée pour crime ou délit, à l'exclusion des infractions non- intentionnelles. Pour l'application de l'alinéa précédent, dans les établissements dont l'activité est saisonnière, cent cinquante-six jours de travail discontinu accompli au cours de précédentes campagnes équivalent à six mois de travail. Article 439 Sont éligibles, à l'exception des ascendants et descendants, frères et sœurs et alliés directs de l'employeur, les électeurs de nationalité marocaine, âgés de vingt ans révolus et ayant travaillé dans l'établissement sans interruption, depuis un an au moins.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.17106890678405762,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "9b7382caa05a755f75b10bdd1eb11beb74b3583e91ea8882b010d9f2d5ac36a3",
+                    "text": "- 53 - الفصل156 من سبق الحكم عليه من أجل جناية بعقوبة تزيد عن الحبس لمدة سنة، بحكم حائز لقوة الشيء المحكوم فيه، ثم ارتكب، قبل مضي خمس سنوات من تمام تنفيذ تلك العقوبة ،أو تقادمها ،جناية أو جنحة يعاقب عليها القانون بالحبس، يجب أن يحكم عليه بالحد األقصى لتلك العقوبة.ويجوز أن تبلغ العقوبة إلى ضعفه.ويجوز عالوة على ذلك أن يحكم بالمنع من اإلقامة من خمس سنوات إلى عشر الفصل157 من سبق الحكم عليه من أجل جنحة بعقوبة الحبس، بحك ،م حائز لقوة الشيء المحكوم فيه ثم ارتكب جنحة مماثلة قبل مضي خمس سنوات من تمام تنفيذ تلك العقوبة أو تقادمها، يجب الحكم عليه بعقوبة الحبس الذي ال يتجاوز ضعف الحد األقصى للعقوبة المقررة قانونا للجنحة.الثانية الفصل158 31 تعد جنحا متماثلة :لتقرير حالة العود، الجرائم المجموعة في كل فقرة من الفقرات التالية 1 - السرقة والنصب وخيانة األمانة وخيانة التوقيع على بياض وإصدار شيك بدون رصيد والتزوير واستعمال األوراق المزورة والتفالس بالتدليس وإخفاء األشياء المتحصلة من جناية أو جنحة؛ 2 - القتل خطأ و اإلصابة خطأ وجنحة الهروب عقب ارتكاب الحادث؛ 3 - هتك العرض بدون عنف واإلخالل العلني بالحياء واعتياد التحريض على الفساد والمساعدة على البغاء؛ 4 - العصيان والعنف واإلهانة تجاه رجال القضاء واألعضاء المحلفين أو رجال القوة العمومية؛ 5 - كل الجنح التي ارتكبها زوج في حق الزوج اآلخر؛ 6 - كل الجنح",
+                    "source": "Code penal marocain",
+                    "document_id": "code_penal",
+                    "page": 53,
+                    "distance": 0.17219841480255127,
+                    "access": "public",
+                    "file": "data\\raw\\code_penal.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "5fb3926fff24512dc048b9f2a532ca234644b9306098a54eeb41dd858a95819d",
+                    "text": "nécessaires à la recherche des infractions, à l’arrestation des délinquants et à l’établissement de la vérité. TITRE VIII DE LA COUR CONSTITUTIONNELLE Article 129 Il est institué une Cour Constitutionnelle. BDJTM - Détail Document https://bdj.mmsp.gov.ma/Front/fr/PrintDocument.aspx?id_doc=5601 24 sur 32 10/11/2026, 20:24",
+                    "source": "Constitution du Royaume du Maroc 2011",
+                    "document_id": "constitution_2011",
+                    "page": 24,
+                    "distance": 0.17308509349822998,
+                    "access": "public",
+                    "file": "data\\raw\\constitution_2011.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q020",
+            "question": "Quelle sanction prévoit l'article 393 du Code pénal pour le meurtre avec préméditation ou guet-apens ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "a749943d59a77bbeab9aad547cf0eb569c9c9e653158acb32a1085ffab75d93e",
+                    "text": "- 106 - Article 298 En cas d'un jugement pour infraction aux dispositions des articles 281, 282, 285 et 286, ce jugement fixe, en outre, le délai dans lequel doivent être exécutés les travaux à effectuer sans pouvoir excéder 6 mois à compter de la date du jugement. Aucune infraction pour les mêmes raisons n'est permise pendant le délai fixé conformément aux dispositions de l'alinéa précédent. Article 299 En cas de récidive, les amendes prévues pour les infractions aux dispositions des articles précédents du présent chapitre sont portées au double, si une infraction similaire est commise au cours des deux années suivant un jugement définitif. Article 300 En cas de violation des prescriptions législatives ou réglementaires relatives à la sécurité et à l'hygiène, que la procédure de mise en demeure soit ou non applicable, le tribunal peut prononcer une condamnation assortie de la fermeture temporaire de l'établissement pendant une durée qui ne peut être inférieure à dix jours ni supérieure à six mois, la fermeture entraînant l'interdiction visée à l'article 90 (2e alinéa) du Code pénal. En cas de non-respect de ces dispositions, les sanctions prévues par l'article 324 dudit code sont applicables. En cas de récidive, le tribunal peut prononcer la fermeture définitive de l'établissement conformément aux articles 90 et 324 du Code pénal. Article 301 Pendant toute la durée de la fermeture temporaire, l'employeur est tenu de continuer à verser à ses salariés les salaires, indemnités et avantages, en espèces ou en nature qui leur sont dus et qu'ils touchaient avant la date de la fermeture. Lorsque la ferme",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 106,
+                    "distance": 0.1652449369430542,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "6678055b3621cddd5e9d65a4ae67d95165d1766272f858a35162ac6bd384c765",
+                    "text": "- 136 - Dans les activités agricoles, lorsque l'employeur vend des produits de son exploitation aux salariés, les prix sont débattus de gré à gré, mais ne peuvent être supérieurs au cours de ces denrées à la production, tel que ce cours est fixé conformément à la législation et à la réglementation sur les prix. Article 394 Les infractions aux dispositions du présent chapitre sont punies d'une amende de 2000 à 5000 dirhams. Chapitre VI : De la prescription des actions découlant des relations de travail Article 395 Tous les droits de quelque nature qu'ils soient, découlant de l'exécution ou de la cessation des contrats individuels de travail, des contrats de formation-insertion, des contrats d'apprentissage et des litiges individuels en relation avec ces contrats, se prescrivent par deux années.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 136,
+                    "distance": 0.16691231727600098,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "11ba2e9b314778078f1bdf65bdfb43e4daeda8ecd4fb2758f6cee27c5058e1df",
+                    "text": "et des dahirs portant loi mentionnés à l'article précédent tant qu'ils ne sont pas contraires aux dispositions de la présente loi. 101 - Voir articles du 5 au 10 dudit dahir n°1-03-196. 102 - Bulletin Officiel n° 2339 du 23 Aout 1957, p. 1110.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 200,
+                    "distance": 0.16743803024291992,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "29179430e9e1bc7b97bb032cc972e0d4c3fdb5e0cead3dd02b3ea9915db4d66b",
+                    "text": "- 16 - Article 11 Les dispositions de la présente loi ne font pas obstacle à l'application de dispositions plus favorables consenties aux salariés par les statuts, le contrat de travail, la convention collective de travail, le règlement intérieur ou les usages. Article 12 Est puni d'une amende de 15.000 à 30.000 dirhams, l'employeur qui contrevient aux dispositions de l'article 9 ci-dessus. En cas de récidive, l'amende précitée est portée au double. Est suspendu d'une durée de 7 jours, le salarié qui contrevient aux dispositions du 1er alinéa de l'article 9 ci-dessus. La sanction de suspension est de 15 jours, lorsque le salarié commet la même contravention au cours de l'année. Lorsqu'il commet la même contravention une troisième fois, il peut être licencié définitivement. Est puni d'une amende de 25.000 à 30.000 dirhams, l'employeur qui contrevient aux dispositions de l'article 10 ci-dessus. La récidive est passible d'une amende portée au double et d'un emprisonnement de 6 jours à 3 mois, ou de l'une de ces deux peines seulement.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 16,
+                    "distance": 0.1688823699951172,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        },
+        {
+            "id": "Q021",
+            "question": "Quelle peine prévoit l'article 505 du Code pénal marocain pour le vol ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "results": [
+                {
+                    "id": "15001e26cbc0a957d5caa4044c2c9d19db7a0079e30f98574b4ff6fd9b5cbdaf",
+                    "text": "- 186 - Article 545 Si toutes les mesures prévues par les articles 540 à 544 ci-dessus sont épuisées sans que l'employeur s'exécute, un autre procès-verbal est adressé par l'agent chargé de l'inspection du travail au procureur du Roi. Le procureur du Roi doit soumettre le procès-verbal au tribunal de première instance dans un délai ne dépassant pas huit jours à compter de la date de sa réception. Le tribunal applique alors les dispositions pénales prévues par le chapitre I du titre IV du livre II de la présente loi97. Chapitre III : Dispositions pénales Article 546 Quiconque aura fait obstacle à l'application des dispositions de la présente loi ou des textes réglementaires pris pour son application, en mettant les agents chargés de l'inspection du travail dans l'impossibilité d'exercer leurs fonctions, est puni d'une amende de 25.000 à 30.000 dirhams. En cas de récidive, l'amende prévue ci-dessus est portée au double. Article 547 Sont punis d'une amende de 2.000 à 5.000 dirhams : 1. le défaut d'ouverture du registre des mises en demeure prévu par l'article 536 ; 2. le non-respect des dispositions des articles 537 et 538. Chapitre IV : Dispositions pénales diverses Article 548 Est pénalement responsable des infractions aux dispositions de la présente loi et des textes réglementaires pris pour son application, tout employeur, directeur ou chef au sens de l'article 7 ci-dessus ayant, dans l'établissement, par délégation de l'employeur, la compétence et 97 - Voir articles de 296 au 301 de la présente loi.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 186,
+                    "distance": 0.1650005578994751,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "2fb468356443c7934500d5dd7d029e2dda82974fe60616879cc5e13f4383f243",
+                    "text": "la loi n° 02-03 relative à l'entrée et au séjour des étrangers au Royaume du Maroc, à l'émigration et l'immigration irrégulières; Bulletin Officiel n° 5162 du 25 Ramadan 1425 (20 Novembre 2003), p. 1295.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.16749203205108643,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "e31d8a47edd277c5ce98923319300b568ae222465f600c9ba868d86ee25e6079",
+                    "text": "- 174 - à sa charge les frais du retour du salarié étranger à son pays ou au pays où il résidait. Article 519 Le cautionnement déposé par les adjudicataires de travaux exécutés pour le compte de l'Etat, des collectivités locales, des entreprises et des établissements publics, ne peut leur être remboursé et la caution personnelle qu'ils ont présentée ne peut être déchargée de son obligation que sur production d'une attestation administrative délivrée par le délégué préfectoral ou provincial chargé du travail certifiant le paiement des frais de retour des salariés étrangers recrutés hors du Maroc ainsi que des sommes dues à ses salariés. Chapitre VI : Dispositions générales Article 520 Sont prises en considération, le cas échéant, les dispositions des conventions internationales multilatérales ou bilatérales publiées conformément à la loi, relatives à l'emploi des salariés marocains à l'étranger ou des salariés étrangers au Maroc. Article 521 Est puni d'une amende de 2.000 à 5.000 dirhams tout employeur : 1. qui n'a pas obtenu l'autorisation prévue par l'article 516 ou qui a employé un salarié étranger dépourvu de ladite autorisation ; 2. qui emploie un salarié étranger dont le contrat n'est pas conforme au modèle prévu par l'article 517 ; 3. qui enfreint les dispositions des articles 518 et 519. Chapitre VII : Le Conseil supérieur de la promotion de l'emploi et les conseils régionaux et provinciaux de la promotion de l'emploi. Article 522 Est institué auprès de l'autorité gouvernementale chargée du travail un conseil dénommé \" le Conseil supérieur de la promotion de l'emploi \".",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.16986560821533203,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                },
+                {
+                    "id": "f9175148b7088c60ba9bbecbcaf3ddb9f04dfebe26b5a2e73862ce0e4d61d4f8",
+                    "text": "- 172 - Article 511 L'employeur qui recrute des salariés en application des articles 507 à 510 ci-dessus doit en informer dans le délai de huit jours le service chargé du travail du lieu où il exerce son activité. Chapitre IV : De l'embauchage des salariés marocains à l'étranger Article 512 Les salariés marocains se rendant à un Etat étranger pour y occuper un emploi rémunéré doivent être munis d'un contrat de travail visé par les services compétents de l'Etat d'émigration et par l'autorité gouvernementale marocaine chargée du travail. Ces contrats doivent être conformes aux conventions de main- d’œuvre conclues avec des Etats ou des organismes employeurs en cas d'existence de telles conventions. L'autorité gouvernementale chargée du travail procède à la sélection des émigrés sur la base de leurs qualifications professionnelles et de leurs aptitudes physiques et accomplit toutes les formalités administratives nécessaires pour l'acheminement des émigrants vers le pays d'accueil en coordination avec les administrations et les employeurs concernés. Article 513 Outre le contrat de travail visé à l'article précédent, le salarié marocain doit, pour quitter le territoire national, être pourvu : 1. d'un certificat médical datant de moins d'un mois ; 2. de tous documents dont la production est exigée par la réglementation du pays d'accueil. Article 514 Lorsqu'un employé de maison quitte le territoire national en compagnie de son employeur pour une durée maximum de six mois, celui-ci doit prendre l'engagement de rapatrier l'employé à ses frais et de supporter, le cas échéant, les frais de son hospitalisation en cas de maladie ou d'accident.",
+                    "source": "Code du travail marocain",
+                    "document_id": "code_travail",
+                    "page": 172,
+                    "distance": 0.17574763298034668,
+                    "access": "public",
+                    "file": "data\\raw\\code_travail.pdf",
+                    "corpus_version": "qanoun-v1"
+                }
+            ]
+        }
+    ],
+    "experiment": {
+        "date_utc": "2026-11-11T09:58:15.522397+00:00",
+        "corpus_version": "qanoun-v1",
+        "model": "intfloat/multilingual-e5-small",
+        "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+        "chunk_tokens": 400,
+        "overlap": 40,
+        "k": 4,
+        "collection": "maroclex",
+        "index_dir": "artifacts/index",
+        "max_distance": null,
+        "evaluation_level": "document_page"
+    }
+}

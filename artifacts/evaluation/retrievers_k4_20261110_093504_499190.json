@@ -1,0 +1,828 @@
+{
+    "date_utc": "2026-11-10T09:35:04.506935+00:00",
+    "k": 4,
+    "reports": [
+        {
+            "method": "e5",
+            "questions_evaluees": 11,
+            "k": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 0.8636363636363636,
+            "mrr": 0.7575757575757575,
+            "details": [
+                {
+                    "id": "Q001",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 5
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 150
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        }
+                    ]
+                },
+                {
+                    "id": "Q002",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "Q003",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 198
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 174
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 129
+                        }
+                    ]
+                },
+                {
+                    "id": "Q005",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "Q006",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 17
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 170
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 8
+                        }
+                    ]
+                },
+                {
+                    "id": "Q007",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.3333333333333333,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 85
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 127
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "Q008",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.5,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 177
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 108
+                        }
+                    ]
+                },
+                {
+                    "id": "Q009",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 12
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "Q010",
+                    "precision_at_k": 0.0,
+                    "recall_at_k": 0.0,
+                    "reciprocal_rank": 0.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 156
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 26
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 87
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "Q011",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 0.5,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 12
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "Q012",
+                    "precision_at_k": 0.5,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.5,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 9
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 10
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "method": "hybrid",
+            "questions_evaluees": 11,
+            "k": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 0.8636363636363636,
+            "mrr": 0.9090909090909091,
+            "details": [
+                {
+                    "id": "Q001",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "Q002",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 7
+                        }
+                    ]
+                },
+                {
+                    "id": "Q003",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 174
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 129
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "Q005",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "Q006",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 17
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 8
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "Q007",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 127
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 199
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 127
+                        }
+                    ]
+                },
+                {
+                    "id": "Q008",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 177
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 67
+                        }
+                    ]
+                },
+                {
+                    "id": "Q009",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 12
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "Q010",
+                    "precision_at_k": 0.0,
+                    "recall_at_k": 0.0,
+                    "reciprocal_rank": 0.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 26
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 127
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 125
+                        }
+                    ]
+                },
+                {
+                    "id": "Q011",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 0.5,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "Q012",
+                    "precision_at_k": 0.5,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 9
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 187
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "method": "multi_query",
+            "questions_evaluees": 11,
+            "k": 4,
+            "precision_at_k": 0.2727272727272727,
+            "recall_at_k": 0.9090909090909091,
+            "mrr": 0.7575757575757575,
+            "details": [
+                {
+                    "id": "Q001",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 5
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 150
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        }
+                    ]
+                },
+                {
+                    "id": "Q002",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        }
+                    ]
+                },
+                {
+                    "id": "Q003",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 198
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 174
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 129
+                        }
+                    ]
+                },
+                {
+                    "id": "Q005",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "Q006",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 17
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 170
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 8
+                        }
+                    ]
+                },
+                {
+                    "id": "Q007",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.3333333333333333,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 85
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 127
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 126
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 10
+                        }
+                    ]
+                },
+                {
+                    "id": "Q008",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.5,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 177
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 108
+                        }
+                    ]
+                },
+                {
+                    "id": "Q009",
+                    "precision_at_k": 0.25,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 12
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "Q010",
+                    "precision_at_k": 0.0,
+                    "recall_at_k": 0.0,
+                    "reciprocal_rank": 0.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "code_travail",
+                            "page": 156
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 26
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 87
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "Q011",
+                    "precision_at_k": 0.5,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 1.0,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 6
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 62
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 10
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 108
+                        }
+                    ]
+                },
+                {
+                    "id": "Q012",
+                    "precision_at_k": 0.5,
+                    "recall_at_k": 1.0,
+                    "reciprocal_rank": 0.5,
+                    "retrieved_passages": [
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 9
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 11
+                        },
+                        {
+                            "document_id": "code_travail",
+                            "page": 10
+                        },
+                        {
+                            "document_id": "loi_19_12",
+                            "page": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
