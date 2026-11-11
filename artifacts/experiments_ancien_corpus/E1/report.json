@@ -1,0 +1,121 @@
+{
+    "experiment": {
+        "id": "E1",
+        "name": "baseline",
+        "date_utc": "2026-11-09T19:21:09.502404+00:00",
+        "chunk_tokens": 400,
+        "overlap": 40,
+        "k": 4,
+        "model": "intfloat/multilingual-e5-small",
+        "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+        "corpus_version": "travail-v0-pending",
+        "collection": "maroclex",
+        "max_distance": null,
+        "evaluation_level": "document_page",
+        "index_path": "E:\\isdia s5\\MLops\\projet\\LOI_Maroc_rag\\artifacts\\experiments\\E1\\index",
+        "chunk_count": 328,
+        "document_hashes": {
+            "code_travail": "91c67dd23c5a2d9aa01c997542ed547b4077135c2528baf74e2a385ea5dfc8f3",
+            "loi_19_12": "7a04878cc3d377d61cb3ce2e7b99c8bc05d3e4d645ec5f1606f3b1cb80dd7ed3"
+        },
+        "questions_sha256": "d0f1876ca756ccc1dd5c0952abf0c533c52d9a40834bed49af335cae64bc934e"
+    },
+    "metrics": {
+        "questions_evaluees": 3,
+        "precision_at_k": 0.25,
+        "recall_at_k": 1.0,
+        "mrr": 1.0
+    },
+    "details": [
+        {
+            "id": "Q001",
+            "question": "Quel est l'âge minimum pour travailler comme employé domestique au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12416934967041016
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.137320876121521
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.14098358154296875
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.1422678828239441
+                }
+            ]
+        },
+        {
+            "id": "Q002",
+            "question": "Comment peut-on prouver l'existence d'un contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.10561925172805786
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13356685638427734
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.14069902896881104
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1409403681755066
+                }
+            ]
+        },
+        {
+            "id": "Q003",
+            "question": "Quelles sont les règles concernant le paiement des salaires au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.10677361488342285
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.139054536819458
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.14716076850891113
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 129,
+                    "distance": 0.15166831016540527
+                }
+            ]
+        }
+    ]
+}

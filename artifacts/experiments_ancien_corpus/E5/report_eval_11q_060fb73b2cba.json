@@ -1,0 +1,363 @@
+{
+    "experiment": {
+        "id": "E5",
+        "name": "high_overlap",
+        "date_utc": "2026-11-09T19:25:31.270578+00:00",
+        "chunk_tokens": 400,
+        "overlap": 80,
+        "k": 4,
+        "model": "intfloat/multilingual-e5-small",
+        "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+        "corpus_version": "travail-v0-pending",
+        "collection": "maroclex",
+        "max_distance": null,
+        "evaluation_level": "document_page",
+        "index_path": "E:\\isdia s5\\MLops\\projet\\LOI_Maroc_rag\\artifacts\\experiments\\E5\\index",
+        "chunk_count": 328,
+        "document_hashes": {
+            "code_travail": "91c67dd23c5a2d9aa01c997542ed547b4077135c2528baf74e2a385ea5dfc8f3",
+            "loi_19_12": "7a04878cc3d377d61cb3ce2e7b99c8bc05d3e4d645ec5f1606f3b1cb80dd7ed3"
+        },
+        "questions_sha256": "060fb73b2cba2528e5a0a3060a921789aa0e4848b9be1aaed445570203f760d3",
+        "reevaluation_date_utc": "2026-11-10T08:59:39.655679+00:00",
+        "questions_count": 11
+    },
+    "metrics": {
+        "questions_evaluees": 11,
+        "precision_at_k": 0.25,
+        "recall_at_k": 0.8636363636363636,
+        "mrr": 0.7727272727272727
+    },
+    "details": [
+        {
+            "id": "Q001",
+            "question": "Quel est l'âge minimum pour travailler comme employé domestique au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12416934967041016
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13099777698516846
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.13212651014328003
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.137320876121521
+                }
+            ]
+        },
+        {
+            "id": "Q002",
+            "question": "Comment peut-on prouver l'existence d'un contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12750983238220215
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13356685638427734
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.139107346534729
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.14069902896881104
+                }
+            ]
+        },
+        {
+            "id": "Q003",
+            "question": "Quelles sont les règles concernant le paiement des salaires au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.10677361488342285
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.139054536819458
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 199,
+                    "distance": 0.14527785778045654
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.14716076850891113
+                }
+            ]
+        },
+        {
+            "id": "Q005",
+            "question": "Quelles sont les conditions de signature du contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.12465149164199829
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12922990322113037
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 1,
+                    "distance": 0.1375228762626648
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 7,
+                    "distance": 0.13871514797210693
+                }
+            ]
+        },
+        {
+            "id": "Q006",
+            "question": "Quelle est la durée de la période d'essai pour un travailleur domestique sous CDI ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13181936740875244
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13412165641784668
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 17,
+                    "distance": 0.13548684120178223
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 170,
+                    "distance": 0.13913887739181519
+                }
+            ]
+        },
+        {
+            "id": "Q007",
+            "question": "Quelle est la fréquence de paiement des salaires pour les ouvriers et employés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 127,
+                    "distance": 0.14472508430480957
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.15113240480422974
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 10,
+                    "distance": 0.15362286567687988
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 85,
+                    "distance": 0.15533286333084106
+                }
+            ]
+        },
+        {
+            "id": "Q008",
+            "question": "Quel est l'âge minimum d'admission au travail prévu par le Code du travail ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13025766611099243
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.13147252798080444
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 177,
+                    "distance": 0.13647913932800293
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 76,
+                    "distance": 0.13886815309524536
+                }
+            ]
+        },
+        {
+            "id": "Q009",
+            "question": "Comment les travailleurs domestiques peuvent-ils déposer une plainte contre leur employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1274787187576294
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.14058029651641846
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 181,
+                    "distance": 0.145111083984375
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.14587068557739258
+                }
+            ]
+        },
+        {
+            "id": "Q010",
+            "question": "Quelles sont les sanctions prévues en cas de non-respect des règles relatives au paiement des salaires ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 26,
+                    "distance": 0.14400577545166016
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 100,
+                    "distance": 0.14504647254943848
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 156,
+                    "distance": 0.14786863327026367
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 26,
+                    "distance": 0.1487973928451538
+                }
+            ]
+        },
+        {
+            "id": "Q011",
+            "question": "Quelles différences existe-t-il entre l'âge minimum d'emploi des travailleurs domestiques et celui prévu par le Code du travail pour les autres salariés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 0.5,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1147010326385498
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.1166871190071106
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13047152757644653
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13260489702224731
+                }
+            ]
+        },
+        {
+            "id": "Q012",
+            "question": "Quelles obligations concernent le contrat de travail domestique et les procédures en cas de conflit avec l'employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.5,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13466423749923706
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 181,
+                    "distance": 0.1371474266052246
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 10,
+                    "distance": 0.13749980926513672
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13912951946258545
+                }
+            ]
+        }
+    ]
+}

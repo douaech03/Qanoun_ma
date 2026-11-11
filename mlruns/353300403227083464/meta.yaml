@@ -1,0 +1,9 @@
+artifact_location: file:///E:/isdia%20s5/MLops/projet/LOI_Maroc_rag/mlruns/353300403227083464
+creation_time: 1794344467341
+effective_trace_archival_retention: null
+experiment_id: '353300403227083464'
+last_update_time: 1794344467341
+lifecycle_stage: active
+name: Qanoun_ma_RAG_Chunking
+trace_location: null
+workspace: default
