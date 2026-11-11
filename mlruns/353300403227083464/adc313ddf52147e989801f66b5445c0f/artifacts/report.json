@@ -1,0 +1,635 @@
+{
+    "experiment": {
+        "id": "E2",
+        "name": "small_chunks",
+        "date_utc": "2026-11-11T10:03:07.021041+00:00",
+        "chunk_tokens": 200,
+        "overlap": 40,
+        "k": 4,
+        "model": "intfloat/multilingual-e5-small",
+        "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+        "corpus_version": "qanoun-v1",
+        "collection": "maroclex",
+        "max_distance": null,
+        "evaluation_level": "document_page",
+        "index_path": "E:\\isdia s5\\MLops\\projet\\LOI_Maroc_rag\\artifacts\\experiments\\E2\\index",
+        "chunk_count": 1689,
+        "document_hashes": {
+            "code_travail": "91c67dd23c5a2d9aa01c997542ed547b4077135c2528baf74e2a385ea5dfc8f3",
+            "loi_19_12": "7a04878cc3d377d61cb3ce2e7b99c8bc05d3e4d645ec5f1606f3b1cb80dd7ed3",
+            "decret_smig_2026": "e5b79a36675f496d9bb6123e7d70b50e3d749540dffb44f62da3ed92fa83d71a",
+            "constitution_2011": "820254f0db26b4bc06056009de0de6ba2f07d9d02c6018ad7e70b6b56e7180f7",
+            "code_famille": "a6d5bd1c0f8e7320493d974c702cb874fbbeab07a730bf6c094002635e96a18f",
+            "code_penal": "9520e87a83514e4d2ed115ffcfe138d80e0cf271a01cffe0e18b25bcd0e985dd"
+        },
+        "questions_sha256": "423153351f194228f04b8f1c760d0f72270dcc3ec3a9d1c7f94c341729bc082c"
+    },
+    "metrics": {
+        "questions_evaluees": 20,
+        "precision_at_k": 0.1625,
+        "recall_at_k": 0.575,
+        "mrr": 0.525
+    },
+    "details": [
+        {
+            "id": "Q001",
+            "question": "Quel est l'âge minimum pour travailler comme employé domestique au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12677502632141113
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13099777698516846
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.13212651014328003
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13465547561645508
+                }
+            ]
+        },
+        {
+            "id": "Q002",
+            "question": "Comment peut-on prouver l'existence d'un contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.12750983238220215
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13591456413269043
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.13690590858459473
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.139107346534729
+                }
+            ]
+        },
+        {
+            "id": "Q003",
+            "question": "Quelles sont les règles concernant le paiement des salaires au Maroc ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.10121810436248779
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 129,
+                    "distance": 0.12892860174179077
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 199,
+                    "distance": 0.14527785778045654
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.1458568572998047
+                }
+            ]
+        },
+        {
+            "id": "Q005",
+            "question": "Quelles sont les conditions de signature du contrat de travail domestique ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.1132274866104126
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.12602180242538452
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.13609331846237183
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 1,
+                    "distance": 0.1375228762626648
+                }
+            ]
+        },
+        {
+            "id": "Q006",
+            "question": "Quelle est la durée de la période d'essai pour un travailleur domestique sous CDI ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13412165641784668
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 17,
+                    "distance": 0.1352825164794922
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.13559508323669434
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 170,
+                    "distance": 0.13802993297576904
+                }
+            ]
+        },
+        {
+            "id": "Q007",
+            "question": "Quelle est la fréquence de paiement des salaires pour les ouvriers et employés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.14209473133087158
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 126,
+                    "distance": 0.14411795139312744
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 127,
+                    "distance": 0.14472508430480957
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 127,
+                    "distance": 0.149275541305542
+                }
+            ]
+        },
+        {
+            "id": "Q008",
+            "question": "Quel est l'âge minimum d'admission au travail prévu par le Code du travail ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.11246949434280396
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.12326514720916748
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 62,
+                    "distance": 0.1297650933265686
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 177,
+                    "distance": 0.13199812173843384
+                }
+            ]
+        },
+        {
+            "id": "Q009",
+            "question": "Comment les travailleurs domestiques peuvent-ils déposer une plainte contre leur employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1152569055557251
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.14014917612075806
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.14058029651641846
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.1426488161087036
+                }
+            ]
+        },
+        {
+            "id": "Q010",
+            "question": "Quelles sont les sanctions prévues en cas de non-respect des règles relatives au paiement des salaires ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 26,
+                    "distance": 0.13558340072631836
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 27,
+                    "distance": 0.14079612493515015
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 100,
+                    "distance": 0.14504647254943848
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 156,
+                    "distance": 0.14786863327026367
+                }
+            ]
+        },
+        {
+            "id": "Q011",
+            "question": "Quelles différences existe-t-il entre l'âge minimum d'emploi des travailleurs domestiques et celui prévu par le Code du travail pour les autres salariés ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 0.5,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.1147010326385498
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 6,
+                    "distance": 0.1222231388092041
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 14,
+                    "distance": 0.1292496919631958
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 17,
+                    "distance": 0.1300615668296814
+                }
+            ]
+        },
+        {
+            "id": "Q012",
+            "question": "Quelles obligations concernent le contrat de travail domestique et les procédures en cas de conflit avec l'employeur ?\n",
+            "retrieved_count": 4,
+            "precision_at_k": 0.5,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 11,
+                    "distance": 0.12894850969314575
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 5,
+                    "distance": 0.13590705394744873
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.13610726594924927
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 181,
+                    "distance": 0.13714748620986938
+                }
+            ]
+        },
+        {
+            "id": "Q013",
+            "question": "Que garantit l'article 31 de la Constitution marocaine concernant l'accès au travail ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.11807352304458618
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 6,
+                    "distance": 0.12420332431793213
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.125194251537323
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.13044559955596924
+                }
+            ]
+        },
+        {
+            "id": "Q014",
+            "question": "Que prévoit l'article 19 de la Constitution concernant l'égalité entre les femmes et les hommes ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 0.5,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.14109784364700317
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 6,
+                    "distance": 0.14718031883239746
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.14927875995635986
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 2,
+                    "distance": 0.15188223123550415
+                }
+            ]
+        },
+        {
+            "id": "Q015",
+            "question": "Que prévoit l'article 29 de la Constitution concernant la liberté syndicale ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 26,
+                    "distance": 0.12974846363067627
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 7,
+                    "distance": 0.1349911093711853
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 4,
+                    "distance": 0.14486348628997803
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 142,
+                    "distance": 0.14767509698867798
+                }
+            ]
+        },
+        {
+            "id": "Q016",
+            "question": "Comment le Code de la famille définit-il le mariage dans son article 4 ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "loi_19_12",
+                    "page": 4,
+                    "distance": 0.14659160375595093
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.14761847257614136
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 99,
+                    "distance": 0.15516632795333862
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 9,
+                    "distance": 0.16110920906066895
+                }
+            ]
+        },
+        {
+            "id": "Q017",
+            "question": "Que prévoit l'article 94 du Code de la famille concernant les conflits entre époux ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 187,
+                    "distance": 0.1543715000152588
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.154599130153656
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15532779693603516
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 50,
+                    "distance": 0.15645229816436768
+                }
+            ]
+        },
+        {
+            "id": "Q018",
+            "question": "Que prévoit l'article 163 du Code de la famille concernant la garde des enfants ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 67,
+                    "distance": 0.14026141166687012
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 68,
+                    "distance": 0.14343976974487305
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 67,
+                    "distance": 0.15255945920944214
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 70,
+                    "distance": 0.15279394388198853
+                }
+            ]
+        },
+        {
+            "id": "Q019",
+            "question": "Quelle peine prévoit l'article 392 du Code pénal marocain pour l'homicide volontaire ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_penal",
+                    "page": 21,
+                    "distance": 0.16460192203521729
+                },
+                {
+                    "document_id": "code_penal",
+                    "page": 142,
+                    "distance": 0.16693103313446045
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 129,
+                    "distance": 0.16810619831085205
+                },
+                {
+                    "document_id": "code_penal",
+                    "page": 22,
+                    "distance": 0.16854095458984375
+                }
+            ]
+        },
+        {
+            "id": "Q020",
+            "question": "Quelle sanction prévoit l'article 393 du Code pénal pour le meurtre avec préméditation ou guet-apens ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "constitution_2011",
+                    "page": 6,
+                    "distance": 0.15892261266708374
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 106,
+                    "distance": 0.16107988357543945
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 195,
+                    "distance": 0.1635197401046753
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 12,
+                    "distance": 0.16642963886260986
+                }
+            ]
+        },
+        {
+            "id": "Q021",
+            "question": "Quelle peine prévoit l'article 505 du Code pénal marocain pour le vol ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.1464717984199524
+                },
+                {
+                    "document_id": "code_penal",
+                    "page": 200,
+                    "distance": 0.17016851902008057
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 170,
+                    "distance": 0.17042237520217896
+                },
+                {
+                    "document_id": "code_penal",
+                    "page": 172,
+                    "distance": 0.1729695200920105
+                }
+            ]
+        }
+    ]
+}

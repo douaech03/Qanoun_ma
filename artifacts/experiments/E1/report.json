@@ -2,7 +2,7 @@
     "experiment": {
         "id": "E1",
         "name": "baseline",
-        "date_utc": "2026-11-10T20:52:16.416259+00:00",
+        "date_utc": "2026-11-11T10:01:32.461449+00:00",
         "chunk_tokens": 400,
         "overlap": 40,
         "k": 4,
@@ -22,13 +22,13 @@
             "code_famille": "a6d5bd1c0f8e7320493d974c702cb874fbbeab07a730bf6c094002635e96a18f",
             "code_penal": "9520e87a83514e4d2ed115ffcfe138d80e0cf271a01cffe0e18b25bcd0e985dd"
         },
-        "questions_sha256": "6780ccbfcc731e836a66550c96f4d82b90d52afe1838a39195363f8c392ae99e"
+        "questions_sha256": "423153351f194228f04b8f1c760d0f72270dcc3ec3a9d1c7f94c341729bc082c"
     },
     "metrics": {
-        "questions_evaluees": 11,
-        "precision_at_k": 0.25,
-        "recall_at_k": 0.8636363636363636,
-        "mrr": 0.7575757575757575
+        "questions_evaluees": 20,
+        "precision_at_k": 0.1625,
+        "recall_at_k": 0.575,
+        "mrr": 0.5166666666666666
     },
     "details": [
         {
@@ -358,6 +358,276 @@
                     "document_id": "loi_19_12",
                     "page": 4,
                     "distance": 0.13990676403045654
+                }
+            ]
+        },
+        {
+            "id": "Q013",
+            "question": "Que garantit l'article 31 de la Constitution marocaine concernant l'accès au travail ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.11620253324508667
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 4,
+                    "distance": 0.1305445432662964
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 6,
+                    "distance": 0.1311916708946228
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.13492560386657715
+                }
+            ]
+        },
+        {
+            "id": "Q014",
+            "question": "Que prévoit l'article 19 de la Constitution concernant l'égalité entre les femmes et les hommes ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.25,
+            "recall_at_k": 1.0,
+            "reciprocal_rank": 1.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "constitution_2011",
+                    "page": 6,
+                    "distance": 0.14065104722976685
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.15559005737304688
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15778207778930664
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 2,
+                    "distance": 0.1594671607017517
+                }
+            ]
+        },
+        {
+            "id": "Q015",
+            "question": "Que prévoit l'article 29 de la Constitution concernant la liberté syndicale ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 7,
+                    "distance": 0.13590675592422485
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.1450510025024414
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.14931505918502808
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 7,
+                    "distance": 0.15008658170700073
+                }
+            ]
+        },
+        {
+            "id": "Q016",
+            "question": "Comment le Code de la famille définit-il le mariage dans son article 4 ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "constitution_2011",
+                    "page": 8,
+                    "distance": 0.15394842624664307
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15413475036621094
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 99,
+                    "distance": 0.15471255779266357
+                },
+                {
+                    "document_id": "loi_19_12",
+                    "page": 9,
+                    "distance": 0.1552944779396057
+                }
+            ]
+        },
+        {
+            "id": "Q017",
+            "question": "Que prévoit l'article 94 du Code de la famille concernant les conflits entre époux ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 9,
+                    "distance": 0.15327870845794678
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 15,
+                    "distance": 0.15494835376739502
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 99,
+                    "distance": 0.15624737739562988
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 29,
+                    "distance": 0.15752243995666504
+                }
+            ]
+        },
+        {
+            "id": "Q018",
+            "question": "Que prévoit l'article 163 du Code de la famille concernant la garde des enfants ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 67,
+                    "distance": 0.1381993293762207
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 68,
+                    "distance": 0.14586466550827026
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 200,
+                    "distance": 0.14969897270202637
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 70,
+                    "distance": 0.15382647514343262
+                }
+            ]
+        },
+        {
+            "id": "Q019",
+            "question": "Quelle peine prévoit l'article 392 du Code pénal marocain pour l'homicide volontaire ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.1691327691078186
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 150,
+                    "distance": 0.17106890678405762
+                },
+                {
+                    "document_id": "code_penal",
+                    "page": 53,
+                    "distance": 0.17219829559326172
+                },
+                {
+                    "document_id": "constitution_2011",
+                    "page": 24,
+                    "distance": 0.17308509349822998
+                }
+            ]
+        },
+        {
+            "id": "Q020",
+            "question": "Quelle sanction prévoit l'article 393 du Code pénal pour le meurtre avec préméditation ou guet-apens ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 106,
+                    "distance": 0.1652449369430542
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 136,
+                    "distance": 0.16691219806671143
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 200,
+                    "distance": 0.16743803024291992
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 16,
+                    "distance": 0.1688823699951172
+                }
+            ]
+        },
+        {
+            "id": "Q021",
+            "question": "Quelle peine prévoit l'article 505 du Code pénal marocain pour le vol ?",
+            "retrieved_count": 4,
+            "precision_at_k": 0.0,
+            "recall_at_k": 0.0,
+            "reciprocal_rank": 0.0,
+            "retrieved_passages": [
+                {
+                    "document_id": "code_travail",
+                    "page": 186,
+                    "distance": 0.1650005578994751
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 198,
+                    "distance": 0.16749197244644165
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 174,
+                    "distance": 0.16986560821533203
+                },
+                {
+                    "document_id": "code_travail",
+                    "page": 172,
+                    "distance": 0.17574763298034668
                 }
             ]
         }

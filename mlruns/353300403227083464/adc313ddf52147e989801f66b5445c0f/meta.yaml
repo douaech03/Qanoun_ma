@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/isdia%20s5/MLops/projet/LOI_Maroc_rag/mlruns/353300403227083464/adc313ddf52147e989801f66b5445c0f/artifacts
+end_time: 1794391417710
+entry_point_name: ''
+experiment_id: '353300403227083464'
+lifecycle_stage: active
+run_id: adc313ddf52147e989801f66b5445c0f
+run_name: E2_chunking
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794391417679
+status: 3
+tags: []
+user_id: pc

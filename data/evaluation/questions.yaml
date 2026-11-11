@@ -126,3 +126,67 @@ questions:
       - document_id: loi_19_12
         page: 11
     topic: question_multi_passages
+
+
+  - id: Q013
+    question: "Que garantit l'article 31 de la Constitution marocaine concernant l'accès au travail ?"
+    relevant_passages:
+      - document_id: constitution_2011
+        page: 8
+    topic: droit_constitutionnel
+
+  - id: Q014
+    question: "Que prévoit l'article 19 de la Constitution concernant l'égalité entre les femmes et les hommes ?"
+    relevant_passages:
+      - document_id: constitution_2011
+        page: 6
+    topic: droit_constitutionnel
+
+  - id: Q015
+    question: "Que prévoit l'article 29 de la Constitution concernant la liberté syndicale ?"
+    relevant_passages:
+      - document_id: constitution_2011
+        page: 7
+    topic: droit_constitutionnel
+
+  - id: Q016
+    question: "Comment le Code de la famille définit-il le mariage dans son article 4 ?"
+    relevant_passages:
+      - document_id: code_famille
+        page: 11
+    topic: droit_familial
+
+  - id: Q017
+    question: "Que prévoit l'article 94 du Code de la famille concernant les conflits entre époux ?"
+    relevant_passages:
+      - document_id: code_famille
+        page: 38
+    topic: droit_familial
+
+  - id: Q018
+    question: "Que prévoit l'article 163 du Code de la famille concernant la garde des enfants ?"
+    relevant_passages:
+      - document_id: code_famille
+        page: 53
+    topic: droit_familial
+
+  - id: Q019
+    question: "Quelle peine prévoit l'article 392 du Code pénal marocain pour l'homicide volontaire ?"
+    relevant_passages:
+      - document_id: code_penal
+        page: 127
+    topic: droit_penal
+
+  - id: Q020
+    question: "Quelle sanction prévoit l'article 393 du Code pénal pour le meurtre avec préméditation ou guet-apens ?"
+    relevant_passages:
+      - document_id: code_penal
+        page: 127
+    topic: droit_penal
+
+  - id: Q021
+    question: "Quelle peine prévoit l'article 505 du Code pénal marocain pour le vol ?"
+    relevant_passages:
+      - document_id: code_penal
+        page: 171
+    topic: droit_penal
