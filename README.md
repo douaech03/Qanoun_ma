@@ -8,18 +8,6 @@
 
 L'application est conçue pour un usage **pédagogique et documentaire**. Elle ne remplace pas un professionnel du droit.
 
-| Informations | Détails |
-|---|---|
-| Établissement | ENSA Fès |
-| Filière | ISDIA3 — Ingénierie en Science des Données et IA |
-| Module | MLOps |
-| Année universitaire | 2026–2027 |
-| Encadrant | Mohammed AIRAJ |
-| Projet | RAG multi-sources — reproductibilité, évaluation et sécurité documentaire |
-| Équipe | Amiri Abdelhadi et Chaibi Douae |
-| Application | **Qanoun.ma** |
-| Dépôt | https://github.com/douaech03/Qanoun_ma |
-
 ## 2. Objectifs
 
 - Exploiter des documents juridiques de différentes sources et conserver leurs métadonnées de provenance.
