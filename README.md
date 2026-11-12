@@ -207,13 +207,6 @@ Le partage des PDF et de l'index ChromaDB doit être prévu séparément si ces 
 
 Ces protections doivent être testées : **un prompt ne suffit pas à garantir** l'absence d'hallucinations, de réponses non fondées ou d'injections malveillantes. Les autorisations et les références doivent être validées au niveau de l'application.
 
-## 11. État d'avancement
-
-**Déjà vérifié :** le module `src/rag.py` communique avec Ollama / Mistral 7B et produit une réponse sourcée sur un **document synthétique de test** ; le script `src/monitoring.py` s'exécute et affiche un résumé initial.
-
-**À valider sur le pipeline complet :** récupération des documents réels, construction ou partage de l'index, branchement du retriever à `app.py`, résultats des tests automatisés, fiabilité des références, sécurité des accès, suivi effectif des requêtes et expériences MLOps (DVC / MLflow).
-
-Aucun résultat chiffré de qualité ou de sécurité n'est revendiqué sans exécution et mesure documentées.
 
 ---
 
